@@ -4,9 +4,11 @@
 * [Java类与类之间的关系](chapter1.md)
 * [设计模式六大原则](she-ji-mo-shi-yuan-ze.md)
   * [单一职责原则](she-ji-mo-shi-yuan-ze/dan-yi-zhi-ze-yuan-ze.md)
-  * 里氏替换原则
-  * 依赖倒置原则
-  * 接口隔离原则
-  * 迪米特法则
-  * 开闭原则
+  * [里氏替换原则](she-ji-mo-shi-yuan-ze/li-shi-ti-huan-yuan-ze.md)
+  * [依赖倒置原则](she-ji-mo-shi-yuan-ze/yi-lai-dao-zhi-yuan-ze.md)
+  * [接口隔离原则](she-ji-mo-shi-yuan-ze/jie-kou-ge-li-yuan-ze.md)
+  * [迪米特法则](she-ji-mo-shi-yuan-ze/di-mi-te-fa-ze.md)
+  * [开闭原则](she-ji-mo-shi-yuan-ze/kai-bi-yuan-ze.md)
+* [代码重构](dai-ma-zhong-gou.md)
+  * [代码坏味道](dai-ma-zhong-gou/dai-ma-huai-wei-dao.md)
 

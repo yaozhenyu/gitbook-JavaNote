@@ -55,5 +55,11 @@ call plug#end()
 git clone https://github.com/fatih/vim-go-tutorial.git
 ```
 
+## 配置.vimrc
+
+```
+cp ~/vim-go-tutorial/vimrc ~/.vimrc
+```
+
 
 

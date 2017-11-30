@@ -67,6 +67,7 @@ git clone https://github.com/fatih/vim-go-tutorial.git
 ```
 
 ```
+复制教程中的vimrc配置
 cp ~/vim-go-tutorial/vimrc  ~/.vimrc
 ```
 

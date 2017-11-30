@@ -7,7 +7,7 @@ curl -fLo ~/.vim/autoload/plug.vim --create-dirs \
     https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim
 ```
 
-~/.vimrc写法
+_~/.vimrc写法_
 
 ```
 " Specify a directory for plugins

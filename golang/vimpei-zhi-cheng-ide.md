@@ -62,6 +62,7 @@ git clone https://github.com/fatih/vim-go.git ~/.vim/plugged/vim-go
 ```
 
 ```
+下载tutories
 git clone https://github.com/fatih/vim-go-tutorial.git
 ```
 

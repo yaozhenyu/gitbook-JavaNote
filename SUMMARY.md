@@ -12,5 +12,5 @@
 * [代码重构](dai-ma-zhong-gou.md)
   * [代码坏味道](dai-ma-zhong-gou/dai-ma-huai-wei-dao.md)
 * [golang](golang.md)
-  * [vim配置为IDE](golang/vimpei-zhi-wei-ide.md)
+  * [vim配置成IDE](golang/vimpei-zhi-wei-ide.md)
 

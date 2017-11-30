@@ -1,6 +1,6 @@
-Ubuntu下配置vim-go
+# vim配置成IDE
 
-下载vim-plug插件管理
+## 下载vim-plug插件管理
 
 ```
 curl -fLo ~/.vim/autoload/plug.vim --create-dirs \

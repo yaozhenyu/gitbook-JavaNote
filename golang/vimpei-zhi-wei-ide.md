@@ -49,5 +49,11 @@ Plug '~/my-prototype-plugin'
 call plug#end()
 ```
 
+## 下载vim-go-tutorial
+
+```
+git clone https://github.com/fatih/vim-go-tutorial.git
+```
+
 
 

@@ -61,5 +61,11 @@ git clone https://github.com/fatih/vim-go-tutorial.git
 cp ~/vim-go-tutorial/vimrc ~/.vimrc
 ```
 
+## 安装插件
+
+```
+打开vim,输入命令 :PlugInstall
+```
+
 
 

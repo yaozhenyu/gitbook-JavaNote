@@ -9,6 +9,7 @@ curl -fLo ~/.vim/autoload/plug.vim --create-dirs \
 
 ```
 ~/.vimrc写法
+
 " Specify a directory for plugins
 " - For Neovim: ~/.local/share/nvim/plugged
 " - Avoid using standard Vim directory names like 'plugin'

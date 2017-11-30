@@ -66,5 +66,9 @@ git clone https://github.com/fatih/vim-go.git ~/.vim/plugged/vim-go
 git clone https://github.com/fatih/vim-go-tutorial.git
 ```
 
+```
+cp ~/vim-go-tutorial/vimrc  ~/.vimrc
+```
+
 
 

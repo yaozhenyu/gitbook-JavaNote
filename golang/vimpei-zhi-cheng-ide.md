@@ -1,4 +1,4 @@
-vim配置成IDE
+# vim配置成IDE
 
 下载vim-plug vim插件管理工具
 
@@ -6,6 +6,10 @@ vim配置成IDE
 curl -fLo ~/.vim/autoload/plug.vim --create-dirs \
     https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim
 ```
+
+安装插件:
+
+打开vim, 输入命令 :PlugInstall
 
 
 

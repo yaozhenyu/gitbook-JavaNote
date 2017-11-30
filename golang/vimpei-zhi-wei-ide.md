@@ -65,6 +65,7 @@ cp ~/vim-go-tutorial/vimrc ~/.vimrc
 
 ```
 打开vim,输入命令 :PlugInstall
+:GoInstallBinaries
 ```
 
 

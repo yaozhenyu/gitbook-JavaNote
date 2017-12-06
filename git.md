@@ -15,9 +15,10 @@ git是分布式版本管理系统。与之相对应的是集中版本管理系�
 * git fetch
 
 * git pull
+
 * git push
 
-* git clone
+## git clone
 
 ```
 $ git clone http[s]://example.com/path/to/repo.git/
@@ -32,7 +33,7 @@ $ git clone rsync://example.com/path/to/repo.git/
 ssh协议的另一种写法
 
 ```
-$ git clone [user@]example.com:path/to/repo.git/ 
+$ git clone [user@]example.com:path/to/repo.git/
 ```
 
 

@@ -59,5 +59,13 @@ origin  git@github.com:jquery/jquery.git (fetch)
 origin  git@github.com:jquery/jquery.git (push)
 ```
 
+克隆版本库的时候，所使用的远程主机自动被Git命名为`origin`。如果想用其他的主机名，需要用`git clone`命令的`-o`选项指定。
+
+```
+$ git clone -o jQuery https://github.com/jquery/jquery.git
+$ git remote
+jQuery
+```
+
 
 

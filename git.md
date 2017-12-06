@@ -53,3 +53,11 @@ origin
 
 使用`-v`选项，可以参看远程主机的网址。
 
+```
+$ git remote -v
+origin  git@github.com:jquery/jquery.git (fetch)
+origin  git@github.com:jquery/jquery.git (push)
+```
+
+
+

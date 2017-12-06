@@ -20,6 +20,12 @@ git是分布式版本管理系统。与之相对应的是集中版本管理系�
 
 ## git clone
 
+
+
+```
+$ git clone <版本库的网址> <本地目录名>
+```
+
 ```
 $ git clone http[s]://example.com/path/to/repo.git/
 $ git clone ssh://example.com/path/to/repo.git/

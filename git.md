@@ -20,8 +20,6 @@ git是分布式版本管理系统。与之相对应的是集中版本管理系�
 
 ## git clone
 
-
-
 ```
 $ git clone <版本库的网址> <本地目录名>
 ```
@@ -42,5 +40,16 @@ ssh协议的另一种写法
 $ git clone [user@]example.com:path/to/repo.git/
 ```
 
+## git remote
 
+为了便于管理，Git要求每个远程主机都必须指定一个主机名。`git remote`命令就用于管理主机名。
+
+不带选项的时候，`git remote`命令列出所有远程主机。
+
+```
+$ git remote
+origin
+```
+
+使用`-v`选项，可以参看远程主机的网址。
 

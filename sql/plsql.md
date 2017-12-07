@@ -35,7 +35,8 @@ drop function fun_info;
 　　begin   
 　　open cur_test for   
 　　select * from a;   
-　　end;   
+　　end;
+ 
 　　--删除存储过程   
 　　drop procedure up_sel   
 　　--提交   

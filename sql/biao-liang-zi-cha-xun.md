@@ -14,3 +14,9 @@ select a.*,(select name from b where b.id=a.id) from a
 
 可以使用左连接查询替代标量子查询。
 
+```
+select a.*,b.name from a left join b on b.id=a.id
+```
+
+
+

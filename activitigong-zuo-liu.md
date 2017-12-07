@@ -42,5 +42,5 @@ ASSIGNEE\_:代理人员
 
 START\_TIME\_: 开始时间
 
-END\_TIME\_: 	结束时间
+END\_TIME\_:结束时间
 

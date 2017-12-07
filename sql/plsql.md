@@ -21,6 +21,8 @@ select ename into name from emp where empno=i_eno;
 update emp set sal=sal+salch where empno=i_eno returning job,sal into o_title,salch;
 return name;
 end;
+
+drop function fun_info;
 ```
 
 **procedure**
@@ -45,10 +47,8 @@ end;
 　　end;   
 　　--//在variable中填入定义的游标名  cur_test   
 　　--//在Type中填入游标类型  Cursor   
-　　--//点击Value 右边的 ...图标即可显示出所要的结果   
+　　--//点击Value 右边的 ...图标即可显示出所要的结果
 ```
-
-
 
 
 

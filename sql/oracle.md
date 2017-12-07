@@ -17,11 +17,7 @@ select * from user_tab_comments
 获取字段注释：
 
 ```
-
-select
- * 
-from
- user_col_comments
+select * from user_col_comments
 ```
 
 

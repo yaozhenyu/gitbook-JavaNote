@@ -18,5 +18,4 @@
 * [R语言](ryu-yan.md)
   * [数据结构](ryu-yan/shu-ju-jie-gou.md)
 * [Git](git.md)
-* [Activiti工作流](activitigong-zuo-liu.md)
 

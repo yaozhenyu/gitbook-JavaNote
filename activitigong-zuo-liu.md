@@ -29,6 +29,17 @@ Activiti工作流总共包含23张数据表，所有的表名默认以“**ACT\_
 | 一般数据 | ACT\_GE\_BYTEARRAY | 通用的流程定义和流程资源 |
 |  | ACT\_GE\_PROPERTY | 系统相关属性 |
 | 流程历史记录 | ACT\_HI\_ACTINST | 历史的流程实例 |
+|  | ACT\_HI\_ATTACHMENT | 历史的流程附件 |
+|  | ACT\_HI\_COMMENT | 历史的说明性信息 |
+|  | ACT\_HI\_DETAIL | 历史的流程运行中的细节信息 |
+|  |  |  |
+|  |  |  |
+|  |  |  |
+|  |  |  |
+|  |  |  |
+|  |  |  |
+|  |  |  |
+|  |  |  |
 
 #### 
 

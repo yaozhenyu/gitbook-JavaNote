@@ -58,59 +58,21 @@ activiti系统一共有23个表，包括流程定义表、一般数据信息表�
 
 # 4、一般数据
 
-1、ACT\_GE\_BYTEARRAY（字节数据表）
+1、ACT\_GE\_BYTEARRAY（字节数据表）名称（NAME\_）、部署Id（DEPLOYMENT\_ID\_）、字节数据（BYTES\_）、发生的（GENERATED\_）
 
-名称（NAME\_）、部署Id（DEPLOYMENT\_ID\_）、字节数据（BYTES\_）、发生的（GENERATED\_）
-
-2、ACT\_GE\_PROPERTY（一般属性表）
-
-名称（NAMe\_）、值\(VALUe\_\)
+2、ACT\_GE\_PROPERTY（一般属性表）名称（NAMe\_）、值\(VALUe\_\)
 
 # 5、用户用户组表
 
 Activit 的用户用户组表，包括用户信息、用户组信息、用户与用户组间的关系、用户信息与用户之间的关系。在实际开发中未采用，用的实际系统中用户。
 
-1、ACT\_ID\_GROUP（用户组表）
+1、ACT\_ID\_GROUP（用户组表）名称（NAME\_）、类型\(TYPE\_\)
 
-名称（NAME\_）、类型\(TYPE\_\)
+2、ACT\_ID\_USER（用户表）姓\(FIRST\_\)、名称\(LAST\_\)、邮件\(EMAIL\_\)、密码\(PWD\_\)、头像Id \(PICTURE\_ID\_\)
 
-2、ACT\_ID\_USER（用户表）
+3、ACT\_ID\_INFO（用户信息表）用户Id\(USER\_ID\_\)、类型\(TYPE\_\)、formINPut名称\(KEY\_\)、值\(VALUE\_\)、密码\(PASSWORD\_\)、父节点\(PARENT\_ID\_\)
 
-姓\(FIRST\_\)、名称\(LAST\_\)、邮件\(EMAIL\_\)、密码\(PWD\_\)、头像Id \(PICTURE\_ID\_\)
-
-3、ACT\_ID\_INFO（用户信息表）
-
-用户Id\(USER\_ID\_\)、类型\(TYPE\_\)、formINPut名称\(KEY\_\)、值\(VALUE\_\)、密码\(PASSWORD\_\)、父节点\(PARENT\_ID\_\)
-
-4、ACT\_ID\_MEMBERSHIP（用户用户组关联表）
-
-用户Id\(user\_ID\_\)、用户组Id（group\_Id）
-
-| 序号 | 表名 | 说明 |
-| :--- | :--- | :--- |
-| 1 | act\_ge\_bytearray | 二进制数据表 |
-| 2 | act\_ge\_property | 属性数据表存储整个流程引擎级别的数据,初始化表结构时，会默认插入三条记录， |
-| 3 | act\_hi\_actinst | 历史节点表 |
-| 4 | act\_hi\_attachment | 历史附件表 |
-| 5 | act\_hi\_comment | 历史意见表 |
-| 6 | act\_hi\_identitylink | 历史流程人员表 |
-| 7 | act\_hi\_detail | 历史详情表，提供历史变量的查询 |
-| 8 | act\_hi\_procinst | 历史流程实例表 |
-| 9 | act\_hi\_taskinst | 历史任务实例表 |
-| 10 | act\_hi\_varinst | 历史变量表 |
-| 11 | act\_id\_group | 用户组信息表 |
-| 12 | act\_id\_info | 用户扩展信息表 |
-| 13 | act\_id\_membership | 用户与用户组对应信息表 |
-| 14 | act\_id\_user | 用户信息表 |
-| 15. | act\_re\_deployment | 部署信息表 |
-| 16. | act\_re\_model | 流程设计模型部署表 |
-| 17 | act\_re\_procdef | 流程定义数据表 |
-| 18 | act\_ru\_event\_subscr | ？ |
-| 19 | act\_ru\_execution | 运行时流程执行实例表 |
-| 20 | act\_ru\_identitylink | 运行时流程人员表，主要存储任务节点与参与者的相关信息 |
-| 21 | act\_ru\_job | 运行时定时任务数据表 |
-| 22 | act\_ru\_task | 运行时任务节点表 |
-| 23 | act\_ru\_variable | 运行时流程变量数据表 |
+4、ACT\_ID\_MEMBERSHIP（用户用户组关联表）用户Id\(user\_ID\_\)、用户组Id（group\_Id）
 
 #### 
 

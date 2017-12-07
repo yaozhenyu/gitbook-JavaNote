@@ -34,6 +34,8 @@ PROC\_INST\_ID\_:流程实例ID
 
 EXECUTION\_ID\_:流程执行ID
 
+ACT\_ID\_:活动ID
+
 TASK\_ID\_: 任务ID
 
 ACT\_NAME\_:活动名称

@@ -36,7 +36,7 @@ activiti系统一共有23个表，包括流程定义表、一般数据信息表�
 
 流程历史信息表，activiti历史记录表包括节点信息表、附件信息表、历史审批记录表、理想详细信息表、历史身份信息表、流程实例历史表、任务历史表、历史变量表。（节点信息表、附件信息表、历史审批记录表、理想详细信息表、历史身份信息表）这些表目前还未知是如何用的。（流程实例历史表、任务历史表、历史变量）三个表可以查询我已完成任务、任务追踪等。
 
-1、ACT\_HI\_ACTINST（活动实例信息）流程定义ID（PROC\_DEF\_ID\_）、流程实例ID（PROC\_INST\_ID\_）、流程执行ID（EXECUTION\_ID\_）、活动ID（ACT\_ID\_）、活动名称（TASK\_ID\_）、活动类型（ACT\_TYPE\_）、任务ID、（TASK\_ID\_）、请求流程实例ID（CALL\_PROC\_INST\_ID\_）、代理人员（ASSIGNEE\_）、开始时间（START\_TIME\_）、结束时间\(END\_TIME\_\)、时长（DURATION\_）
+1、**ACT\_HI\_ACTINST（活动实例信息）**流程定义ID（PROC\_DEF\_ID\_）、流程实例ID（PROC\_INST\_ID\_）、流程执行ID（EXECUTION\_ID\_）、活动ID（ACT\_ID\_）、活动名称（TASK\_ID\_）、活动类型（ACT\_TYPE\_）、任务ID、（TASK\_ID\_）、请求流程实例ID（CALL\_PROC\_INST\_ID\_）、代理人员（ASSIGNEE\_）、开始时间（START\_TIME\_）、结束时间\(END\_TIME\_\)、时长（DURATION\_）
 
 2、ACT\_HI\_ATTACHMENT（附件信息）用户id（USER\_ID\_）、名称（NAME\_）、描述（DESCRIPTION\_）、类型（TYPE\_）、任务Id（TASK\_ID\_）、流程实例ID（PROC\_INST\_ID\_）、连接（URL\_）、内容Id（CONTENT\_ID\_）
 

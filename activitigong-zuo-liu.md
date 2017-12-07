@@ -32,3 +32,5 @@ PROC\_DEF\_ID\_:流程定义ID
 
 PROC\_INST\_ID\_:流程实例ID
 
+EXECUTION\_ID\_:流程执行ID
+

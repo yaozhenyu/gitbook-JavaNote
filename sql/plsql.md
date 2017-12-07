@@ -2,8 +2,6 @@
 
 
 
-
-
 ```
 DECLARE
 v_num NUMBER ; -- 定义一个变量v_num

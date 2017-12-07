@@ -17,4 +17,5 @@
 * [R语言](ryu-yan.md)
   * [数据结构](ryu-yan/shu-ju-jie-gou.md)
 * [Git](git.md)
+* [SQL](sql.md)
 

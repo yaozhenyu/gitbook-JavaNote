@@ -18,6 +18,5 @@
   * [数据结构](ryu-yan/shu-ju-jie-gou.md)
 * [Git](git.md)
 * [SQL](sql.md)
-  * [Oracle](sql/oracle.md)
   * [Pl/Sql](sql/plsql.md)
 

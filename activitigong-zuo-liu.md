@@ -19,7 +19,7 @@ activiti系统一共有23个表，包括**流程定义表、一般数据信息�
 |  | ACT\_HI\_TASKINST | 历史的任务实例 |
 |  | ACT\_HI\_VARINST | 历史的流程运行中的变量信息 |
 | 用户用户组表 | ACT\_ID\_GROUP | 身份信息-组信息 |
-|  | ACT\_ID\_INFO | 身份信息-组信息 |
+|  | ACT\_ID\_INFO | 身份信息-用户信息 |
 |  | ACT\_ID\_MEMBERSHIP | 身份信息-用户和组关系的中间表 |
 |  | ACT\_ID\_USER | 身份信息-用户信息 |
 | 流程定义表 | ACT\_RE\_DEPLOYMENT | 部署单元信息 |

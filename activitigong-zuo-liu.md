@@ -50,9 +50,7 @@ activiti系统一共有23个表，包括流程定义表、一般数据信息表�
 
 7、**ACT\_HI\_TASKINST（历史任务流程实例信息）核心表**　流程实例ID（PROC\_INST\_ID\_）、任务定义Key（BUSINESS\_KEY\_）、流程定义Id（PROC\_DEF\_ID\_）、执行ID（EXECUTION\_ID\_）、名称（NAME\_）、父任务iD（PARENT\_TASK\_ID\_）、描述（DESCRIPTION\_）、所属人（OWNER\_）、代理人（ASSIGNEE\_）、开始时间（START\_TIME\_）、结束时间（END\_TIME\_）、时长（DURATION\_）、删除理由（DELETE\_REASON\_\_）、优先级（PRIORITY\_）、应完成时间（DUE\_DATE\_）、表单key（FORM\_KEY\_）
 
-8、ACT\_HI\_VARINST（历史变量信息）
-
-流程实例ID（PROC\_INST\_ID\_）、执行ID（EXECUTION\_ID\_）、任务Id、名称（NAME\_）、变量（TASK\_ID\_）、类型（VAR\_TYPE\_）、字节数组ID（BYTEARRAY\_ID\_）、DOUBLE\_、LONG\_、TEXT\_、TEXT2\_
+8、ACT\_HI\_VARINST（历史变量信息）流程实例ID（PROC\_INST\_ID\_）、执行ID（EXECUTION\_ID\_）、任务Id、名称（NAME\_）、变量（TASK\_ID\_）、类型（VAR\_TYPE\_）、字节数组ID（BYTEARRAY\_ID\_）、DOUBLE\_、LONG\_、TEXT\_、TEXT2\_
 
 # 4、一般数据
 

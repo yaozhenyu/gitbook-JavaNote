@@ -19,4 +19,5 @@
 * [Git](git.md)
 * [SQL](sql.md)
   * [Oracle](sql/oracle.md)
+  * [Pl/Sql](sql/plsql.md)
 

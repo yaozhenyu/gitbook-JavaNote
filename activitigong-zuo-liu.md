@@ -36,3 +36,7 @@ EXECUTION\_ID\_:流程执行ID
 
 TASK\_ID\_: 任务ID
 
+ACT\_NAME\_:活动名称
+
+
+

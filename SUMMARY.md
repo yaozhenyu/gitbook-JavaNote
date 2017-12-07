@@ -18,6 +18,6 @@
 * [R语言](ryu-yan.md)
   * [数据结构](ryu-yan/shu-ju-jie-gou.md)
 * [golang](golang.md)
-  * [vim配置成IDE](golang/vimpei-zhi-wei-ide.md)
+  * [vim配置成IDE](golang/vimpei-zhi-cheng-ide.md)
 * [Git](git.md)
 

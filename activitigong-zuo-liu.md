@@ -10,27 +10,19 @@ activiti系统一共有23个表，包括流程定义表、一般数据信息表�
 
 流程定义表，流程定义表也可以叫做是静态资源库，静态资源包括图片、定义规则等。它有部署信息表、流程模型表、流程定义表
 
-1、ACT\_RE\_DEPLOYMENT（部署信息表）
+1、ACT\_RE\_DEPLOYMENT（部署信息表）包括：部署流程名称、类型、部署时间
 
-包括：部署流程名称、类型、部署时间
+2、ACT\_RE\_MODEL（模型表）名称,key、类型、创建时间、最后修改时间、版本、数据源信息、部署ID、编辑源值ID、编辑源额外值ID（外键ACT\_GE\_BYTEARRAY ）
 
-2、ACT\_RE\_MODEL（模型表）
-
-名称,key、类型、创建时间、最后修改时间、版本、数据源信息、部署ID、编辑源值ID、编辑源额外值ID（外键ACT\_GE\_BYTEARRAY ）
-
-3、ACT\_RE\_PROCDEF（流程定义表）
-
-包括流程定义、类型、流程名称、流程key、版本号、部署ID、资源名称、图片资源名称、描述信息、是否从key启动、暂停状态。
+3、ACT\_RE\_PROCDEF（流程定义表）包括流程定义、类型、流程名称、流程key、版本号、部署ID、资源名称、图片资源名称、描述信息、是否从key启动、暂停状态。
 
 # 3、Activiti 运行实例表
 
 运行实例表记录流程流转过程中产生的数据，一般数据分为两个部分流程数据、业务数据。流程数据是指activiti流程引擎流转过程中的数据，包括流程执行实例数据接、任务数据、执行任务人员信息、变量信息。业务数据则是流程过程中保存的表单数据，例如：如请假的请假单数据、报销单数据、审批意见信息等，此部分数据一般需要自己建数据表进行保存，在之前的jbpm4中没有保存业务数据。
 
-1、ACT\_RU\_EVENT\_SUBSCR（事件子脚本）作用未知
+1、ACT\_RU\_EVENT\_SUBSCR（事件子脚本）
 
-事件名称（EVENT\_NAME\_）、事件类型\(EVENT\_TYPE\_\)、流程执行ID\(EXECUTION\_ID\_\)、流程实例ID\(PROC\_INST\_ID\_\)、活动ID\(ACTIVITY\_ID\_\)、配置信息\(CONFIGURATION\_\)、创建时间（CREATED\_）
-
-2、ACT\_RU\_EXECUTION（执行中流程执行）核心我的代办任务查询表
+2、ACT\_RU\_EXECUTION（执行中流程执行）**核心 **我的代办任务查询表
 
 流程实例ID（PROC\_INST\_ID\_），业务key（BUSINESS\_KEY\_）、父执行流程（PARENT\_ID\_）、流程定义Id（外键PROC\_DEF\_ID\_）、实例id（ACT\_ID\_）、激活状态（IS\_ACTIVE\_）、并发状态（is\_concurrent）、is\_scope、is\_evnet\_scope、暂停状态（suspension\_state）、缓存结束状态（cached\_end\_state）
 
@@ -40,15 +32,9 @@ activiti系统一共有23个表，包括流程定义表、一般数据信息表�
 
 4、ACT\_RU\_JOB\(运行中的任务\)
 
-5、ACT\_RU\_TASK（执行中实时任务）代办任务查询表
+5、ACT\_RU\_TASK（执行中实时任务）代办任务查询表 实例id（外键EXECUTION\_ID\_）、流程实例ID（外键PROC\_INST\_ID\_）、流程定义ID（PROC\_DEF\_ID\_）、任务名称（NAME\_）、父节任务ID（PARENT\_TASK\_ID\_）、任务描述（DESCRIPTION\_）、任务定义key（TASK\_DEF\_KEY\_）、所属人（OWNER\_）、代理人员 \(ASSIGNEE\_\)、代理团（DELEGATION\_）、优先权（PRIORITY\_）、创建时间（CREATE\_TIME\_）、执行时间（DUE\_DATE\_）、暂停状态（SUSPENSION\_STATE\_）
 
-实例id（外键EXECUTION\_ID\_）、流程实例ID（外键PROC\_INST\_ID\_）、流程定义ID（PROC\_DEF\_ID\_）、任务名称（NAME\_）、父节任务ID（PARENT\_TASK\_ID\_）
-
-、任务描述（DESCRIPTION\_）、任务定义key（TASK\_DEF\_KEY\_）、所属人（OWNER\_）、代理人员 \(ASSIGNEE\_\)、代理团（DELEGATION\_）、优先权（PRIORITY\_）、创建时间（CREATE\_TIME\_）、执行时间（DUE\_DATE\_）、暂停状态（SUSPENSION\_STATE\_）
-
-6、ACT\_RU\_VARIABLE（实时变量）
-
-变量名称（NAME\_）、编码类型\(TYPE\_\)、执行实例ID\(EXECUTION\_ID\_\)、流程实例Id\(PROC\_INST\_ID\_\)、任务id\(TASK\_ID\_\)、字节组ID（BYTEARRAY\_ID\_）、DOUBLE\_、LONG\_、TEXT\_、TEXT2\_
+6、ACT\_RU\_VARIABLE（实时变量） 变量名称（NAME\_）、编码类型\(TYPE\_\)、执行实例ID\(EXECUTION\_ID\_\)、流程实例Id\(PROC\_INST\_ID\_\)、任务id\(TASK\_ID\_\)、字节组ID（BYTEARRAY\_ID\_）、DOUBLE\_、LONG\_、TEXT\_、TEXT2\_
 
 # 3、流程历史记录
 

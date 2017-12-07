@@ -34,7 +34,7 @@ PROC\_INST\_ID\_:流程实例ID
 
 EXECUTION\_ID\_:流程执行ID
 
-ACT\_ID\_:活动ID
+ACT\_ID\_:活动ID\(流程节点\)
 
 TASK\_ID\_: 任务ID
 

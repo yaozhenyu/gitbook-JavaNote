@@ -12,3 +12,5 @@ select a.*,(select name from b where b.id=a.id) from a
 
 如果a表数据比较多，标量子查询的效率非常低。
 
+可以使用左连接查询替代标量子查询。
+

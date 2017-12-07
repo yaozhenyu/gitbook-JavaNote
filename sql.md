@@ -46,7 +46,7 @@ select * from user_col_comments
 是外连接（左外链接、右外连接），+号在哪边代表这边可能会出现空数据
 
 ```
-select a.*,(select name from b where b.id=a.id) from a
+select a.*,b.name from a left join b on b.id=a.id
 等价于
 select a.*,b.name from a,b where a.id=b.id(+)
 ```

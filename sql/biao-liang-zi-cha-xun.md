@@ -10,3 +10,5 @@ select a.*,(select name from b where b.id=a.id) from a
 
 特殊情况下，a.id的distinct值只有n个，那么b表只执行n次。
 
+如果a表数据比较多，标量子查询的效率非常低。
+

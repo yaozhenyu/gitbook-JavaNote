@@ -32,7 +32,7 @@ Activiti工作流总共包含23张数据表，所有的表名默认以“**ACT\_
 |  | ACT\_HI\_ATTACHMENT | 历史的流程附件 |
 |  | ACT\_HI\_COMMENT | 历史的说明性信息 |
 |  | ACT\_HI\_DETAIL | 历史的流程运行中的细节信息 |
-|  |  |  |
+|  | ACT\_HI\_IDENTITYLINK | 历史的流程运行过程中用户关系 |
 |  |  |  |
 |  |  |  |
 |  |  |  |

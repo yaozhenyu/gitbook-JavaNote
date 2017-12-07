@@ -22,6 +22,7 @@ update emp set sal=sal+salch where empno=i_eno returning job,sal into o_title,sa
 return name;
 end;
 
+// 删除function
 drop function fun_info;
 ```
 

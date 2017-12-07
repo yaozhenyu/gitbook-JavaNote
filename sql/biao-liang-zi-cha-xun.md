@@ -8,3 +8,5 @@ select a.*,(select name from b where b.id=a.id) from a
 
 理想状态下，a.id为主键，没有重复值，那么a表返回多少行，b表就要被执行多少次。
 
+特殊情况下，a.id的distinct值只有n个，那么b表只执行n次。
+

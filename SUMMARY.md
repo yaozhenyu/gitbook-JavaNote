@@ -20,4 +20,5 @@
 * [SQL](sql.md)
   * [Oracle](sql/oracle.md)
   * [Pl/Sql](sql/plsql.md)
+  * [标量子查询](sql/biao-liang-zi-cha-xun.md)
 

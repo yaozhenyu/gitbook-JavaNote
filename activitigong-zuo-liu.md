@@ -38,7 +38,7 @@ TASK\_ID\_: 任务ID
 
 ACT\_NAME\_:活动名称
 
-ASSIGNEE\_: 	代理人员
+ASSIGNEE\_:代理人员
 
 START\_TIME\_: 开始时间
 

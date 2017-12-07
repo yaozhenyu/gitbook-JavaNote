@@ -46,9 +46,13 @@ START\_TIME\_: 开始时间
 
 END\_TIME\_:结束时间
 
+#### 表名:ACT\_HI\_TASKINST（历史任务流程实例信息）核心表
 
 
-#### 表名:ACT\_HI\_TASKINST核心表（历史任务流程实例信息）
+
+#### 表名:ACT\_HI\_PROCINST（历史流程实例信息）核心表
+
+#### 
 
 
 

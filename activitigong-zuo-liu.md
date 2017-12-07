@@ -30,5 +30,5 @@ Activiti工作流总共包含23张数据表，所有的表名默认以“**ACT\_
 
 PROC\_DEF\_ID\_:流程定义ID
 
-
+PROC\_INST\_ID\_:流程实例ID
 

@@ -2,7 +2,7 @@
 
 **SQL\( Structured Query Language\)**
 
-## 解锁
+## 解锁\(oracle\)
 
 ### 1.下面的语句用来查询哪些对象被锁：
 
@@ -18,8 +18,6 @@ where l.object_id　=　o.object_id and l.session_id=s.sid;
 alter system kill session '24,111';
 //(其中24,111分别是上面查询出的sid,serial#)
 ```
-
-
 
 
 

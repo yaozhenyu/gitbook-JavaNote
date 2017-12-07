@@ -36,7 +36,7 @@ drop function fun_info;
 　　open cur_test for   
 　　select * from a;   
 　　end;
- 
+
 　　--删除存储过程   
 　　drop procedure up_sel   
 　　--提交   
@@ -51,6 +51,10 @@ drop function fun_info;
 　　--//在Type中填入游标类型  Cursor   
 　　--//点击Value 右边的 ...图标即可显示出所要的结果
 ```
+
+**赋值用 :=**
+
+`various := 1;`
 
 
 

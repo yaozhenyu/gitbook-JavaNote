@@ -22,13 +22,9 @@ activiti系统一共有23个表，包括流程定义表、一般数据信息表�
 
 1、ACT\_RU\_EVENT\_SUBSCR（事件子脚本）
 
-2、ACT\_RU\_EXECUTION（执行中流程执行）**核心 **我的代办任务查询表
+2、ACT\_RU\_EXECUTION（执行中流程执行）**核心 **我的代办任务查询表　流程实例ID（PROC\_INST\_ID\_），业务key（BUSINESS\_KEY\_）、父执行流程（PARENT\_ID\_）、流程定义Id（外键PROC\_DEF\_ID\_）、实例id（ACT\_ID\_）、激活状态（IS\_ACTIVE\_）、并发状态（is\_concurrent）、is\_scope、is\_evnet\_scope、暂停状态（suspension\_state）、缓存结束状态（cached\_end\_state）
 
-流程实例ID（PROC\_INST\_ID\_），业务key（BUSINESS\_KEY\_）、父执行流程（PARENT\_ID\_）、流程定义Id（外键PROC\_DEF\_ID\_）、实例id（ACT\_ID\_）、激活状态（IS\_ACTIVE\_）、并发状态（is\_concurrent）、is\_scope、is\_evnet\_scope、暂停状态（suspension\_state）、缓存结束状态（cached\_end\_state）
-
-3、ACT\_RU\_IDENTITYLINK（身份联系）
-
-用户组ＩＤ（GROUP\_ID\_）、用户组类型\(TYPE\_\)、用户ID\(USER\_ID\_\)、任务Id（外键：TASK\_ID\_）、流程实例ID（外键：PROC\_INST\_ID\_）、流程定义Id（外键:PROC\_DEF\_ID\_）
+3、ACT\_RU\_IDENTITYLINK（身份联系）用户组ＩＤ（GROUP\_ID\_）、用户组类型\(TYPE\_\)、用户ID\(USER\_ID\_\)、任务Id（外键：TASK\_ID\_）、流程实例ID（外键：PROC\_INST\_ID\_）、流程定义Id（外键:PROC\_DEF\_ID\_）
 
 4、ACT\_RU\_JOB\(运行中的任务\)
 

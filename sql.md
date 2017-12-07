@@ -46,10 +46,9 @@ select * from user_col_comments
 是外连接（左外链接、右外连接），+号在哪边代表这边可能会出现空数据
 
 ```
-select a.*,(select name from b where b.id=a.id) from a;
+select a.*,(select name from b where b.id=a.id) from a
 等价于
-select a.*,b.name from a,b where a.id=b.id(+);
-
+select a.*,b.name from a,b where a.id=b.id(+)
 ```
 
 

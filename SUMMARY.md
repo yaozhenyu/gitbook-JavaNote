@@ -11,6 +11,7 @@
   * [开闭原则](she-ji-mo-shi-yuan-ze/kai-bi-yuan-ze.md)
 * [代码重构](dai-ma-zhong-gou.md)
   * [代码坏味道](dai-ma-zhong-gou/dai-ma-huai-wei-dao.md)
+* [Activiti工作流](activitigong-zuo-liu.md)
 * [SQL](sql.md)
   * [Pl/Sql](sql/plsql.md)
   * [标量子查询](sql/biao-liang-zi-cha-xun.md)

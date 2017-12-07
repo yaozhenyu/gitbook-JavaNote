@@ -10,6 +10,7 @@ where l.object_id　=　o.object_id and l.session_id=s.sid;
 
 ```
 alter system kill session '24,111';
+(其中24,111分别是上面查询出的sid,serial#)
 ```
 
 

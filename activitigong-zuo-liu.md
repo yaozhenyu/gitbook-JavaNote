@@ -34,3 +34,5 @@ PROC\_INST\_ID\_:流程实例ID
 
 EXECUTION\_ID\_:流程执行ID
 
+TASK\_ID\_: 任务ID
+

@@ -14,5 +14,15 @@ select table_name from dba_tables; //包括系统表
 select * from user_tab_comments
 ```
 
+获取字段注释：
+
+```
+
+select
+ * 
+from
+ user_col_comments
+```
+
 
 

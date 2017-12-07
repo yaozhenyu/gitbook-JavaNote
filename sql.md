@@ -2,10 +2,6 @@
 
 **SQL\( Structured Query Language\)**
 
-
-
-
-
 # 
 
 

@@ -1,6 +1,6 @@
 # 结构体标签
 
-在处理json格式字符串的时候，经常会看到声明struct结构的时候，属性的右侧还有“\`“括起来的内容。形如：
+在处理json格式字符串的时候，经常会看到声明struct结构的时候，属性的右侧还有”\`“括起来的内容。形如：
 
     type User struct {
         UserId   int    `json:"user_id"bson:"user_id"`

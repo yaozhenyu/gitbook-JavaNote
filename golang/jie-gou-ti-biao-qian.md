@@ -1,7 +1,5 @@
 # 结构体标签
 
-
-
 在处理json格式字符串的时候，经常会看到声明struct结构的时候，属性的右侧还有小米点括起来的内容。形如：
 
     type User struct {
@@ -17,15 +15,17 @@
 
 所以呢就多了小米点的内容，在golang中叫标签（Tag），在转换成其它数据格式的时候，会使用其中特定的字段作为键值。例如上例在转成json格式：
 
-| 1234 | `u := &User{UserId:1, UserName:"tony"}j, _ := json.Marshal(u)fmt.Println(string(j))// 输出内容：{"user_id":1,"user_name":"tony"}` |
-| :--- | :--- |
-
+```
+u := &User{UserId: 1, UserName: "tony"}
+j, _ := json.Marshal(u)
+fmt.Println(string(j))
+// 输出内容：{"user_id":1,"user_name":"tony"}
+```
 
 如果在属性中不增加标签说明，则输出：
 
 ```
 {"UserId":1,"UserName":"tony"}
-
 ```
 
 可以看到直接用struct的属性名做键值。
@@ -42,7 +42,7 @@
 
 完整代码如下：
 
-| 123456789101112131415161718192021222324252627 | ``packagemainimport("encoding/json""fmt""reflect")funcmain() {type User struct {UserId   int    `json:"user_id"bson:"user_id"`UserName string `json:"user_name"bson:"user_name"`}// 输出json格式u := &User{UserId:1, UserName:"tony"}j, _ := json.Marshal(u)fmt.Println(string(j))// 输出内容：{"user_id":1,"user_name":"tony"}// 获取tag中的内容t := reflect.TypeOf(u)field := t.Elem().Field(0)fmt.Println(field.Tag.Get("json"))// 输出：user_idfmt.Println(field.Tag.Get("bson"))// 输出：user_id}`` |
+| 123456789101112131415161718192021222324252627 | ``packagemainimport("encoding/json""fmt""reflect")funcmain() {type User struct {UserId   int    `json:"user_id"bson:"user_id"`UserName string `json:"user_name"bson:"user_name"`}// 输出json格式u := &User{UserId:1, UserName:"tony"}j, _ := json.Marshal(u)fmt.Println(string(j))// 输出内容：{"user_id":1,"user_name":"tony"}// 获取tag中的内容t := reflect.TypeOf(u)field := t.Elem().Field(0)fmt.Println(field.Tag.Get("json"))// 输出：user_idfmt.Println(field.Tag.Get("bson"))// 输出：user_id}`` |
 | :--- | :--- |
 
 

@@ -34,9 +34,12 @@ fmt.Println(string(j))
 
 那么当我们需要自己封装一些操作，需要用到Tag中的内容时，咋样去获取呢？这边可以使用反射包（reflect）中的方法来获取：
 
-| 1234 | `t := reflect.TypeOf(u)field := t.Elem().Field(0)fmt.Println(field.Tag.Get("json"))fmt.Println(field.Tag.Get("bson"))` |
-| :--- | :--- |
-
+```
+t := reflect.TypeOf(u)
+field := t.Elem().Field(0)
+fmt.Println(field.Tag.Get("json"))
+fmt.Println(field.Tag.Get("bson"))
+```
 
 完整代码如下：
 

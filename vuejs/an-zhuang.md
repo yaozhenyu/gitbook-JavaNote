@@ -1,4 +1,4 @@
-## &lt;直接 `<script>` 引入 {#直接-lt-script-gt-引入}
+## 直接 `<script>` 引入 {#直接-lt-script-gt-引入}
 
 推荐：[https://cdn.jsdelivr.net/npm/vue](https://cdn.jsdelivr.net/npm/vue)，会保持和 npm 发布的最新的版本一致。可以在[https://cdn.jsdelivr.net/npm/vue/](https://cdn.jsdelivr.net/npm/vue/)
 
@@ -10,7 +10,7 @@
 
 ## NPM {#NPM}
 
-在用 Vue.js 构建大型应用时推荐使用 NPM 安装，NPM 能很好地和诸如 `Webpack` 或 `Browserify `模块打包器配合使用。Vue.js 也提供配套工具来开发**单文件组件**。
+在用 Vue.js 构建大型应用时推荐使用 NPM 安装，NPM 能很好地和诸如 `Webpack` 或 `Browserify`模块打包器配合使用。Vue.js 也提供配套工具来开发**单文件组件**。
 
 ```
 # 最新稳定版 

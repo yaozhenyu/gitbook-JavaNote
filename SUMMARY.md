@@ -26,4 +26,6 @@
   * [vim配置成IDE](golang/vimpei-zhi-cheng-ide.md)
   * [结构体标签](golang/jie-gou-ti-biao-qian.md)
 * [Git](git.md)
+* [Vue.js](vuejs.md)
+  * 安装
 

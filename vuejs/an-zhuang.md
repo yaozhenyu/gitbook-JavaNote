@@ -8,6 +8,14 @@
 <script src="https://cdn.jsdelivr.net/npm/vue"></script>
 ```
 
+## NPM {#NPM}
+
+在用 Vue.js 构建大型应用时推荐使用 NPM 安装，NPM 能很好地和诸如 [Webpack](https://webpack.js.org/) 或 [Browserify](http://browserify.org/) 模块打包器配合使用。Vue.js 也提供配套工具来开发[单文件组件](https://cn.vuejs.org/v2/guide/single-file-components.html)。
+
+| \# 最新稳定版 $ npm install vue |
+| :--- |
+
+
 ## 命令行工具 \(CLI\) {#命令行工具-CLI}
 
 ```

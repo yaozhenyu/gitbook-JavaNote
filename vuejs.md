@@ -4,7 +4,7 @@
 
 这与我们平常的访问路径不一样，感觉有点别扭，怎么改成我们习惯的样子呢？
 
-在index.js文件加上`mode:'history',`：
+在index.js文件加上`mode:'history'`：
 
 ```
 export default new Router({

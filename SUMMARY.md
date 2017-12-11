@@ -9,6 +9,7 @@
   * [接口隔离原则](she-ji-mo-shi-yuan-ze/jie-kou-ge-li-yuan-ze.md)
   * [迪米特法则](she-ji-mo-shi-yuan-ze/di-mi-te-fa-ze.md)
   * [开闭原则](she-ji-mo-shi-yuan-ze/kai-bi-yuan-ze.md)
+* [设计模式23种](she-ji-mo-shi-23-zhong.md)
 * [代码重构](dai-ma-zhong-gou.md)
   * [代码坏味道](dai-ma-zhong-gou/dai-ma-huai-wei-dao.md)
 * [Activiti工作流](activitigong-zuo-liu.md)
@@ -26,7 +27,5 @@
   * [vim配置成IDE](golang/vimpei-zhi-cheng-ide.md)
   * [结构体标签](golang/jie-gou-ti-biao-qian.md)
 * [Git](git.md)
-* [Vue.js](vuejs.md)
-  * [安装](vuejs/an-zhuang.md)
 * [设计模式23种](she-ji-mo-shi-23-zhong.md)
 

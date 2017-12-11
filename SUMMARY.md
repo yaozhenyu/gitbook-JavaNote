@@ -28,4 +28,5 @@
 * [Git](git.md)
 * [Vue.js](vuejs.md)
   * [安装](vuejs/an-zhuang.md)
+* [设计模式23种](she-ji-mo-shi-23-zhong.md)
 

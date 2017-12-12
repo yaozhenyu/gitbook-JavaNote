@@ -29,5 +29,4 @@
   * [vim配置成IDE](golang/vimpei-zhi-cheng-ide.md)
   * [结构体标签](golang/jie-gou-ti-biao-qian.md)
 * [Git](git.md)
-* [设计模式23种](she-ji-mo-shi-23-zhong.md)
 

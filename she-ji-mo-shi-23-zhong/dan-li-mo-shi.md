@@ -1,6 +1,6 @@
 # 单例模式
 
-懒汉式：
+懒汉式（线程安全）：
 
 ```
 public class Singleton {  
@@ -12,7 +12,7 @@ public class Singleton {
     }  
     return instance;  
     }  
-} 
+}
 ```
 
 

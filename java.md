@@ -6,13 +6,12 @@
 package example;
 
 public class TestStatic {
-    // st所在语句只执行一次。
+    // static所在语句只执行一次。
     public static TestStatic st = new TestStatic();
     public TestStatic(){
         System.out.println("st");
     }
 }
-
 ```
 
 

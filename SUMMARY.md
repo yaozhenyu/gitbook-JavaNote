@@ -1,6 +1,7 @@
 # Summary
 
 * [笔记](README.md)
+* [Java](java.md)
 * [Java类与类之间的关系](chapter1.md)
 * [设计模式六大原则](she-ji-mo-shi-yuan-ze.md)
   * [单一职责原则](she-ji-mo-shi-yuan-ze/dan-yi-zhi-ze-yuan-ze.md)
@@ -28,5 +29,5 @@
 * [golang](golang.md)
   * [vim配置成IDE](golang/vimpei-zhi-cheng-ide.md)
   * [结构体标签](golang/jie-gou-ti-biao-qian.md)
-* [Git](git.md)
+* Java
 

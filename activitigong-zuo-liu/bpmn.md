@@ -32,9 +32,9 @@
 
 * 附件（Artifacts）
 
-  1.Group 组
+  1.Group 组： 组用一个虚线的圆角矩形表示，用于记录或分析的目的，但不影响顺序流。
 
-  2.Text Annotation 文本注释
+  2.Text Annotation 文本注释： 注释是建模者为BPMN图的读者提供附加文本信息的一个机制。
 
 
 

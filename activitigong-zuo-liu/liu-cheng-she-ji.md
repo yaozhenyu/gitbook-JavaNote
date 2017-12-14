@@ -28,5 +28,15 @@ public void deployByZip() {
 }
 ```
 
+三、启动流程
+
+```
+public static ProcessInstance startInstanceByKey(String instanceByKey) {
+    RuntimeService runtimeService = processEngine.getRuntimeService();
+    ProcessInstance instance = runtimeService.startProcessInstanceByKey(instanceByKey);
+    return instance;
+}
+```
+
 
 

@@ -18,9 +18,21 @@ BPMN
 
 * 连接对象（Connecting Object\)
 
+  1、Sequence Flow，序列流
+
 * 泳道（Swimlanes）
 
 * 附件（Artifacts）
+
+
+
+
+
+
+
+Sequence Flow，序列流
+
+
 
 
 

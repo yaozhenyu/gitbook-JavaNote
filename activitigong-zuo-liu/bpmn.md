@@ -4,7 +4,9 @@ BPMN
 
 * 流对象（Flow Objects）
 
-\* 事件（Event\* 活动（Activity）
+\* 事件（Event\)
+
+\* 活动（Activity）
 
 * 连接对象（Connecting Object
 

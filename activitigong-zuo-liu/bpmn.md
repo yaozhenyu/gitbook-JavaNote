@@ -20,15 +20,11 @@ BPMN
 
   1、Sequence Flow，序列流： 用实线实心箭头表示，代表流程中将被执行的活动的执行顺序
 
-2、Message Flow，消息流
+ 2、Message Flow，消息流
 
 * 泳道（Swimlanes）
 
 * 附件（Artifacts）
-
-
-
-
 
 
 

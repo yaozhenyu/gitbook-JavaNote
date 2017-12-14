@@ -10,7 +10,11 @@ BPMN
 
 * 活动（Activity）
 
-  网关（Gateway）
+   活动用圆角矩形表示，一个活动多个活动组成，活动的类型分为Task和Sub-Process。如下下图：
+
+  
+
+* 网关（Gateway）
 
 * 连接对象（Connecting Object\)
 

@@ -6,7 +6,9 @@ BPMN
 
   事件（Event\):  Event 用一个圆圈表示，它是流程中运行过程中发生的事情。事件的发生会影响到流程的流转.事件包含Start\Intermediate\End三种类型
 
-  活动（Activity）
+  ![](/assets/bpmn_event.png)
+
+* 活动（Activity）
 
   网关（Gateway）
 

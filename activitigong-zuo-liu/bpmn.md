@@ -8,11 +8,11 @@ BPMN
 
   ![](/assets/bpmn_event.png)
 
-* 活动（Activity）
+  活动（Activity）
 
-  活动用圆角矩形表示，一个活动多个活动组成，活动的类型分为Task和Sub-Process。如下下图：
+活动用圆角矩形表示，一个活动多个活动组成，活动的类型分为Task和Sub-Process。如下下图：
 
-  ![](/assets/bpmn_activity.png)
+![](/assets/bpmn_activity.png)
 
 * 网关（Gateway）
 

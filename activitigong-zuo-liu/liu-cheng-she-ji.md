@@ -38,5 +38,15 @@ public static ProcessInstance startInstanceByKey(String instanceByKey) {
 }
 ```
 
+四、查看历史
+
+```
+ public static List<Task> findTaskByAssignee(String assignee) {
+    TaskService taskService = processEngine.getTaskService();
+    List<Task> taskList = taskService.createTaskQuery().taskAssignee(assignee).list();
+    return taskList;
+}
+```
+
 
 

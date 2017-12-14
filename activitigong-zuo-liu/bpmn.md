@@ -8,6 +8,8 @@ BPMN
 
   活动（Activity）
 
+        关口（Gateway）
+
 * 连接对象（Connecting Object\)
 
 * 泳道（Swimlanes）

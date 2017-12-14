@@ -28,9 +28,13 @@
 
   1.Pools 池
 
- 2.Lanes 道
+  2.Lanes 道
 
 * 附件（Artifacts）
+
+  1.Group 组
+
+2.Text Annotation 文本注释
 
 
 

@@ -1,4 +1,4 @@
-# BPMN
+BPMN
 
 **BPMN四种基本元素是：**
 
@@ -9,28 +9,6 @@
 * 连接对象（Connecting Object
 
 * 泳道（Swimlanes）
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 * 附件（Artifacts）
 

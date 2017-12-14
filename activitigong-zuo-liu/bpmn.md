@@ -12,9 +12,5 @@ BPMN
 
 * 附件（Artifacts）
 
-* ，关口（
 
-Gateway
-
-）
 

@@ -28,7 +28,7 @@
 
   1.Pools 池
 
-2.Lanes 道
+ 2.Lanes 道
 
 * 附件（Artifacts）
 

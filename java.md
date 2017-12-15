@@ -16,3 +16,9 @@ public class TestStatic {
 
 
 
+# java中import static和import的区别
+
+
+
+
+

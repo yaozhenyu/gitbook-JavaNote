@@ -18,7 +18,7 @@ public class TestStatic {
 
 import static（静态导入）是JDK1.5中的新特性，导入类中的**静态方法或静态成员变量**，在引用类中可以直接使用，不用“类名.变量名“，“类名.方法名”的方式。
 
-下面是Spring.io官网的例子
+下面是Spring.io官网的例子（APPLICATION\_JSON，fromObject）
 
 ```
 import static org.springframework.http.MediaType.APPLICATION_JSON;

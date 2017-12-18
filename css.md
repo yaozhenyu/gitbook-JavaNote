@@ -51,7 +51,7 @@ a:active {color: #0000FF}    /* 选定的链接 */
 
 伪元素：
 
-##   :first-line 伪元素
+##### :first-line 伪元素
 
 ```
 p:first-line{

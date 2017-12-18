@@ -37,6 +37,12 @@ insert into test_connect_by values (17, 8);
 insert into test_connect_by values (26,13);
 insert into test_connect_by values (26, 1);
 insert into test_connect_by values (26,12);
+
+
+select lpad(' ',2*(level-1)) || to_char(child) s 
+  from test_connect_by 
+  start with parent is null
+  connect by prior child = parent;
 ```
 
 

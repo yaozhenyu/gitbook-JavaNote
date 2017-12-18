@@ -62,5 +62,12 @@ p:first-line{
 
 ##### :first-letter
 
+```
+p:first-letter{
+  color:#ff0000;
+  font-size:xx-large;
+}
+```
+
 
 

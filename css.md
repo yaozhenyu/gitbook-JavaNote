@@ -60,7 +60,7 @@ p:first-line{
 }
 ```
 
-##### :first-letter
+##### :first-letter --  用于向文本的首字母设置特殊样式
 
 ```
 p:first-letter{

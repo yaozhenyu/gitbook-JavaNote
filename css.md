@@ -32,5 +32,13 @@ li strong {
 }
 ```
 
+元素选择器
+
+```
+html {color:black;}
+h1 {color:blue;}
+h2 {color:silver;}
+```
+
 
 

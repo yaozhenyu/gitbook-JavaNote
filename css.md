@@ -42,6 +42,8 @@ h2 {color:silver;}
 
 伪类：
 
+#####  :first-child 伪类
+
 ```
 a:link {color: #FF0000}        /* 未访问的链接 */
 a:visited {color: #00FF00}    /* 已访问的链接 */

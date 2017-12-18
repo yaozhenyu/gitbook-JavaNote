@@ -29,7 +29,7 @@ ID选择器：
 li strong {
     font-style: italic;
     font-weight: normal;
-  }
+}
 ```
 
 

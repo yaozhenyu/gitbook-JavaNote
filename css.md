@@ -32,7 +32,7 @@ li strong {
 }
 ```
 
-元素选择器
+元素选择器：
 
 ```
 html {color:black;}

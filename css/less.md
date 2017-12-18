@@ -14,16 +14,12 @@ $ npm install -g less
 
 ```
 $ lessc styles.less
-
 ```
 
 这将输出编译之后的 CSS 代码到 `stdout`，你可以将输出重定向到一个文件：
 
 ```
-$ lessc styles.less 
->
- styles.css
-
+$ lessc styles.less > styles.css
 ```
 
 

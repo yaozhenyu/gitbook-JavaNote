@@ -51,7 +51,7 @@ a:active {color: #0000FF}    /* 选定的链接 */
 
 伪元素：
 
-##### :first-line 伪元素
+##### :first-line 伪元素  --  用于向文本的首行设置特殊样式。
 
 ```
 p:first-line{

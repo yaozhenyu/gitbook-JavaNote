@@ -57,6 +57,25 @@ select lpad(' ',2*(level-1)) || to_char(child) s
   from test_connect_by 
   start with parent is null
   connect by prior child = parent;
+
+This select statement results in:  
+38
+  15
+    10
+    5
+      2
+      3
+  17
+    9
+    8
+  6
+26
+  13
+  1
+  12
+18
+  11
+  7
 ```
 
 

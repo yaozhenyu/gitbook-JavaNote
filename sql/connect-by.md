@@ -33,7 +33,7 @@ insert into test_connect_by values (18, 7);
 insert into test_connect_by values (17, 9);
 insert into test_connect_by values (17, 8);
 
---26 = 13+1+12 
+-- 26 = 13+1+12 
 insert into test_connect_by values (26,13);
 insert into test_connect_by values (26, 1);
 insert into test_connect_by values (26,12);

@@ -22,5 +22,32 @@ $ lessc styles.less
 $ lessc styles.less > styles.css
 ```
 
+### 变量
 
+举个简单的例子
+
+```
+@nice-blue: #5B83AD;
+@light-blue: @nice-blue + #111;
+
+#header {
+  color: @light-blue;
+}
+```
+
+编译为：
+
+```
+#header
+{
+  
+color
+:
+#6c94be
+;
+
+}
+```
+
+注意，由于变量只能定义一次，其本质就是“常量”。
 

@@ -52,11 +52,10 @@ a:active {color: #0000FF}    /* 选定的链接 */
 伪元素：
 
 ```
-p:first-line
-  {
+p:first-line{
   color:#ff0000;
   font-variant:small-caps;
-  }
+}
 ```
 
 

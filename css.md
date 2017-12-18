@@ -23,5 +23,14 @@ ID选择器：
 }
 ```
 
-派生选择器
+派生选择器：
+
+```
+li strong {
+    font-style: italic;
+    font-weight: normal;
+  }
+```
+
+
 

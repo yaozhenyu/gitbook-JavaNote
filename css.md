@@ -43,10 +43,20 @@ h2 {color:silver;}
 伪类：
 
 ```
-a:link {color: #FF0000}		/* 未访问的链接 */
-a:visited {color: #00FF00}	/* 已访问的链接 */
-a:hover {color: #FF00FF}	/* 鼠标移动到链接上 */
-a:active {color: #0000FF}	/* 选定的链接 */
+a:link {color: #FF0000}        /* 未访问的链接 */
+a:visited {color: #00FF00}    /* 已访问的链接 */
+a:hover {color: #FF00FF}    /* 鼠标移动到链接上 */
+a:active {color: #0000FF}    /* 选定的链接 */
+```
+
+伪元素：
+
+```
+p:first-line
+  {
+  color:#ff0000;
+  font-variant:small-caps;
+  }
 ```
 
 

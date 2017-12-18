@@ -38,14 +38,8 @@ $ lessc styles.less > styles.css
 编译为：
 
 ```
-#header
-{
-  
-color
-:
-#6c94be
-;
-
+#header {
+  color: #6c94be;
 }
 ```
 

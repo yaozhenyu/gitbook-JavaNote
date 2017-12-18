@@ -53,7 +53,12 @@ a:active {color: #0000FF}    /* 选定的链接 */
 
 ##### :first-child 伪类
 
-
+```
+p:first-child {
+  color: red;
+} 
+//第一个P元素
+```
 
 伪元素：
 

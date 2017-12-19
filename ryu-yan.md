@@ -41,5 +41,14 @@ for(double x:arr){                                        //遍历集合
 }
 ```
 
+## RStudio Server
+
+```
+$ sudo apt-get install r-base // 安装R语言
+$ sudo apt-get install gdebi-core
+$ wget https://download2.rstudio.org/rstudio-server-1.1.383-amd64.deb
+$ sudo gdebi rstudio-server-1.1.383-amd64.deb
+```
+
 
 

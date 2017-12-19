@@ -21,5 +21,24 @@ R CMD Rserve --RS-enable-remote
 
 依赖:REngine.jar, RserveEngine.jar
 
+```
+RConnection c;
+try {
+	c = new RConnection();
+	REXP x = c.eval("R.version.string");
+	System.out.println(x.asString());
+	System.out.println("connected!");
+	c.eval("setwd('f:/R_Stat/')");
+	c.eval("dev.off()");
+	c.close();
+}catch (Exception e) {
+	System.out.println("Error");
+		e.printStackTrace();
+	} finally {
+		System.out.println("finally");
+	}
+}
+```
+
 
 

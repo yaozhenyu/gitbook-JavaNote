@@ -52,3 +52,5 @@ $ sudo gdebi rstudio-server-1.1.383-amd64.deb
 
 访问`localhosst:8787`
 
+
+

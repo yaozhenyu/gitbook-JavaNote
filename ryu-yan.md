@@ -27,7 +27,7 @@ String rv = rcon.eval("R.version.string").asString();     //得到R版本信息
 double[] arr = rcon.eval("rnorm(10)").asDoubles();        //通过R得到10个随机数返回数组
 System.out.println(rv);                                   //输出版本信息
 for(double x:arr){                                        //遍历集合
-System.out.println(x);
+    System.out.println(x);
 }
 ```
 

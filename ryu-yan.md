@@ -22,22 +22,14 @@ R CMD Rserve --RS-enable-remote
 依赖:REngine.jar, RserveEngine.jar
 
 ```
-RConnection c;
-try {
-	c = new RConnection();
-	REXP x = c.eval("R.version.string");
-	System.out.println(x.asString());
-	System.out.println("connected!");
-	c.eval("setwd('f:/R_Stat/')");
-	c.eval("dev.off()");
-	c.close();
-}catch (Exception e) {
-	System.out.println("Error");
-		e.printStackTrace();
-	} finally {
-		System.out.println("finally");
-	}
-}
+RConnection rcon = new RConnection("114.115.205.210");    //建立远程链接
+        String rv = rcon.eval("R.version.string").asString();     //得到R版本信息
+        double[] arr = rcon.eval("rnorm(10)").asDoubles();        //通过R得到10个随机数返回数组
+        System.out.println(rv);                                   //输出版本信息
+        for(double x:arr)                                         //遍历集合
+        {
+            System.out.println(x);
+        }
 ```
 
 

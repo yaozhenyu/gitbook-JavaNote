@@ -29,6 +29,7 @@
   * [标量子查询](sql/biao-liang-zi-cha-xun.md)
   * [子查询分类](sql/zi-cha-xun-fen-lei.md)
   * [Connect by](sql/connect-by.md)
+  * [常用Function](sql/chang-yong-function.md)
 * [R语言](ryu-yan.md)
   * [数据结构](ryu-yan/shu-ju-jie-gou.md)
 * [golang](golang.md)

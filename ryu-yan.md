@@ -17,5 +17,9 @@ R CMD INSTALL Rserve_1.8-5.tar.gz
 R CMD Rserve --RS-enable-remote
 ```
 
+## Java中使用Rserve
+
+依赖:REngine.jar, RserveEngine.jar
+
 
 

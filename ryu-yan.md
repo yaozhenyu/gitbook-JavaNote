@@ -22,6 +22,16 @@ R CMD Rserve --RS-enable-remote
 依赖:REngine.jar, RserveEngine.jar
 
 ```
+maven依赖
+<!-- https://mvnrepository.com/artifact/org.rosuda.REngine/Rserve -->
+<dependency>
+    <groupId>org.rosuda.REngine</groupId>
+    <artifactId>Rserve</artifactId>
+    <version>1.8.1</version>
+</dependency>
+
+Java代码
+
 RConnection rcon = new RConnection("114.115.205.210");    //建立远程链接
 String rv = rcon.eval("R.version.string").asString();     //得到R版本信息
 double[] arr = rcon.eval("rnorm(10)").asDoubles();        //通过R得到10个随机数返回数组

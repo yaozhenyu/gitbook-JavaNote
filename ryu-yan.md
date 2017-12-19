@@ -23,13 +23,12 @@ R CMD Rserve --RS-enable-remote
 
 ```
 RConnection rcon = new RConnection("114.115.205.210");    //建立远程链接
-        String rv = rcon.eval("R.version.string").asString();     //得到R版本信息
-        double[] arr = rcon.eval("rnorm(10)").asDoubles();        //通过R得到10个随机数返回数组
-        System.out.println(rv);                                   //输出版本信息
-        for(double x:arr)                                         //遍历集合
-        {
-            System.out.println(x);
-        }
+String rv = rcon.eval("R.version.string").asString();     //得到R版本信息
+double[] arr = rcon.eval("rnorm(10)").asDoubles();        //通过R得到10个随机数返回数组
+System.out.println(rv);                                   //输出版本信息
+for(double x:arr){                                        //遍历集合
+System.out.println(x);
+}
 ```
 
 

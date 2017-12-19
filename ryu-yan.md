@@ -3,7 +3,7 @@
 安装
 
 ```
-
+sudo apt-get install r-base-core
 ```
 
 

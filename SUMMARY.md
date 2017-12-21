@@ -26,7 +26,6 @@
   * [流程设计](activitigong-zuo-liu/liu-cheng-she-ji.md)
 * [SQL](sql.md)
   * [Pl/Sql](sql/plsql.md)
-  * [标量子查询](sql/biao-liang-zi-cha-xun.md)
   * [子查询分类](sql/zi-cha-xun-fen-lei.md)
   * [Connect by](sql/connect-by.md)
   * [常用Function](sql/chang-yong-function.md)

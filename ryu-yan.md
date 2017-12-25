@@ -10,6 +10,7 @@ sudo apt-get install r-base-core
 
 ```
 进入R命令行:
+R
 install.packages("Rserve")
 R CMD INSTALL Rserve_1.8-5.tar.gz
 需要远程连接需要输入

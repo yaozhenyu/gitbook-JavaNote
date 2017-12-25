@@ -56,3 +56,7 @@ $ sudo gdebi rstudio-server-1.1.383-amd64.deb
 
 Ctr+d或q\(\)
 
+赋值: -&gt; 或 =
+
+
+

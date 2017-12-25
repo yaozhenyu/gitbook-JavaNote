@@ -52,3 +52,7 @@ $ sudo gdebi rstudio-server-1.1.383-amd64.deb
 
 访问浏览器`localhosst:8787`
 
+**退出命令行:**
+
+Ctr+d或q\(\)
+

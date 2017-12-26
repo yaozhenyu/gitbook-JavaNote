@@ -32,6 +32,7 @@
   * [常用SQL](sql/chang-yong-sql.md)
 * [R语言](ryu-yan.md)
   * [数据结构](ryu-yan/shu-ju-jie-gou.md)
+  * [矢量Vector](ryu-yan/shi-liang-vector.md)
 * [golang](golang.md)
   * [vim配置成IDE](golang/vimpei-zhi-cheng-ide.md)
   * [结构体标签](golang/jie-gou-ti-biao-qian.md)

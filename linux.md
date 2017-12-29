@@ -6,5 +6,11 @@
 chmod -R 777 dirname
 ```
 
+## Docker
+
+```
+sudo apt-get install docker-io
+```
+
 
 

@@ -29,7 +29,7 @@ run            运行一个容器
 -p 3306:3306   表示在这个容器中使用3306端口(第二个)映射到本机的端口号也为3306(第一个)
 -d
 
-// 本机目录挂载到docker容器
+// 本机目录挂载到docker容器 加 -v 参数
 $ docker run -d -e MYSQL_ROOT_PASSWORD=admin --name second-mysql -v ~/mysql/data:/var/lib/mysql -p 3307:3306 mysql
 ```
 

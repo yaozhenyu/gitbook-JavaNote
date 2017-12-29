@@ -12,5 +12,11 @@ chmod -R 777 dirname
 sudo apt-get install docker-io
 ```
 
+## Mysql
+
+```
+sudo docker pull mysql
+```
+
 
 

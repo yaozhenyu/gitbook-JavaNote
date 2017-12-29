@@ -35,7 +35,7 @@ $ docker run -d -e MYSQL_ROOT_PASSWORD=admin --name second-mysql -v ~/mysql/data
 删除容器
 
 ```
-sudo docker rm mysql
+sudo docker rm -f mysql
 ```
 
 

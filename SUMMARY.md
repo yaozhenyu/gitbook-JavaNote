@@ -18,6 +18,7 @@
   * [工厂模式](she-ji-mo-shi-23-zhong/gong-chang-mo-shi.md)
 * [代码重构](dai-ma-zhong-gou.md)
   * [代码坏味道](dai-ma-zhong-gou/dai-ma-huai-wei-dao.md)
+* [Jeesite](jeesite.md)
 * [Activiti工作流](activitigong-zuo-liu.md)
   * [流程定义表](activitigong-zuo-liu/activiti-liu-cheng-ding-yi-biao.md)
   * [运行实例表](activitigong-zuo-liu/activiti-yun-xing-shi-li-biao.md)
@@ -40,5 +41,4 @@
   * [结构体标签](golang/jie-gou-ti-biao-qian.md)
 * [CSS](css.md)
   * [Less](css/less.md)
-* [Linux](linux.md)
 

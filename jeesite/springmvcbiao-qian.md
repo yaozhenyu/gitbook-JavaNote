@@ -2,7 +2,7 @@
 
 ## &lt;form:form&gt;标签
 
-&lt;form:form id="searchForm" modelAttribute="queryAPSDetailDTO" action="\#" method="post" class="breadcrumb form-search"&gt;
+&lt;form:form id="searchForm" modelAttribute="dto" action="\#" method="post" class="breadcrumb form-search"&gt;
 
 ## &lt;form:select&gt;标签
 

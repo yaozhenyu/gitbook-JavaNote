@@ -1,26 +1,11 @@
-#  Jquery-validate
+# Jquery-validate
 
 ## 导入 js 库
 
 ```
-<
-script src="http://static.runoob.com/assets/jquery-validation-1.14.0/lib/jquery.js"
->
-<
-/script
->
-<
-script src="http://static.runoob.com/assets/jquery-validation-1.14.0/dist/jquery.validate.min.js"
->
-<
-/script
->
-<
-script src="http://static.runoob.com/assets/jquery-validation-1.14.0/dist/localization/messages_zh.js"
->
-<
-/script
->
+<script src="http://static.runoob.com/assets/jquery-validation-1.14.0/lib/jquery.js"></script>
+<script src="http://static.runoob.com/assets/jquery-validation-1.14.0/dist/jquery.validate.min.js"></script>
+<script src="http://static.runoob.com/assets/jquery-validation-1.14.0/dist/localization/messages_zh.js"></script>
 ```
 
 jQuery Validate提供了中文信息提示包，位于下载包的 dist/localization/messages\_zh.js

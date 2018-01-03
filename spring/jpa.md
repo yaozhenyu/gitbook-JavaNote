@@ -50,6 +50,8 @@ public class Customer {
 }
 ```
 
+**3.repository**
+
 ```
 @SpringBootApplication
 public class Application {

@@ -14,7 +14,7 @@ dependencies {
 
 **2.实体类**
 
-注解`@entity`,表名与类名相同. `@table(name="")` 设置表名
+注解`@entity`,表名与类名相同. `@table(name="")` 注解设置表名
 
 ```
 import javax.persistence.Entity;

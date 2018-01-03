@@ -52,6 +52,8 @@ public class Customer {
 
 **3.repository**
 
+继承CrudRepository类.
+
 ```
 import java.util.List;
 

@@ -2,12 +2,17 @@
 
 **web配置**
 
-继承WebSecurityConfigurerAdapter 
+继承WebSecurityConfigurerAdapter
 
 ```
 @Configuration
 @EnableWebSecurity
 public class WebSecurityConfig extends WebSecurityConfigurerAdapter {
+
+    @Autowired
+    private UserDetailService userDetailService;
+    private PasswordEncoder passwordEncoder;
+
     @Override
     protected void configure(HttpSecurity http) throws Exception {
         http
@@ -29,6 +34,7 @@ public class WebSecurityConfig extends WebSecurityConfigurerAdapter {
         auth
             .inMemoryAuthentication()
                 .withUser("user").password("password").roles("USER");
+        auth.userDetailService(userDetailService).passwordEncoder(passwordEncoder);
 
     }
 }

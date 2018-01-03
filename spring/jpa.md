@@ -65,6 +65,8 @@ public interface CustomerRepository extends CrudRepository<Customer, Long> {
 }
 ```
 
+实例:
+
 ```
 @SpringBootApplication
 public class Application {

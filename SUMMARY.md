@@ -2,6 +2,7 @@
 
 * [笔记](README.md)
 * [Spring](spring.md)
+  * [JPA](spring/jpa.md)
   * [SpringSecurity](spring/springsecurity.md)
 * [Java](java.md)
   * [import static和import的区别](java/import-statiche-import-de-qu-bie.md)

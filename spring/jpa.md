@@ -14,7 +14,7 @@ dependencies {
 
 **2.实体类**
 
-注解`@entity` 表名与类名相同. `@table(name="")` 注解设置表名. `@Id` 标识为主键
+注解`@Entity` JPA实体. `@table(name="")` 注解设置表名,如果没有则默认为表名. `@Id` 标识为主键
 
 `@GeneratedValue(strategy = GenerationType.AUTO)` 自动设置主键
 

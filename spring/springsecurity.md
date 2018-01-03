@@ -23,6 +23,7 @@ public class WebSecurityConfig extends WebSecurityConfigurerAdapter {
 
     @Autowired
     public void configureGlobal(AuthenticationManagerBuilder auth) throws Exception {
+        // 用户信息配置在内存中
         auth
             .inMemoryAuthentication()
                 .withUser("user").password("password").roles("USER");

@@ -14,6 +14,8 @@ dependencies {
 
 **2.实体类**
 
+注解`@entity`
+
 ```
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;

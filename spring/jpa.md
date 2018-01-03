@@ -14,7 +14,7 @@ dependencies {
 
 **2.实体类**
 
-注解`@entity`
+注解`@entity`,
 
 ```
 import javax.persistence.Entity;

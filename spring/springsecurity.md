@@ -2,6 +2,8 @@
 
 **web配置**
 
+继承WebSecurityConfigurerAdapter 
+
 ```
 @Configuration
 @EnableWebSecurity
@@ -27,7 +29,7 @@ public class WebSecurityConfig extends WebSecurityConfigurerAdapter {
         auth
             .inMemoryAuthentication()
                 .withUser("user").password("password").roles("USER");
-        
+
     }
 }
 ```

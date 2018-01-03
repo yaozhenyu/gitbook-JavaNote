@@ -18,7 +18,7 @@ dependencies {
 
 `@GeneratedValue(strategy = GenerationType.AUTO)` 自动设置主键
 
-`@Column(unique=true)` 唯一性约束
+`@Column(unique=true,name="")` 唯一性约束
 
 ```
 import javax.persistence.Entity;

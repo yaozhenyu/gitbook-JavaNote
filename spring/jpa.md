@@ -1,6 +1,6 @@
 # JPA
 
-1. maven & gradle依赖
+1.maven & gradle依赖
 
 ```
 dependencies {
@@ -10,6 +10,12 @@ dependencies {
     compile("com.h2database:h2")
     testCompile("junit:junit")
 }
+```
+
+2.实体类
+
+```
+
 ```
 
 ```

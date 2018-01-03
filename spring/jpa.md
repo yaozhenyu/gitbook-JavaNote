@@ -4,13 +4,13 @@
 
 ```
 dependencies {
+    // jpa
     compile("org.springframework.boot:spring-boot-starter-data-jpa")
+    // 数据库h2
     compile("com.h2database:h2")
     testCompile("junit:junit")
 }
 ```
-
-
 
 ```
 @SpringBootApplication

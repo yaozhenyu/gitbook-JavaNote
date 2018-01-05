@@ -1,6 +1,18 @@
 # Pl/Sql
 
 ```
+PL/SQL块的结构如下：
+
+DECLARE 
+/* 声明部分: 在此声明PL/SQL用到的变量,类型及游标，以及局部的存储过程和函数 */
+BEGIN
+    /*  执行部分:  过程及SQL 语句  , 即程序的主要部分  */
+EXCEPTION
+   /* 执行异常部分: 错误处理  */
+END;
+```
+
+```
 DECLARE
 v_num NUMBER ; -- 定义一个变量v_num
 BEGIN
@@ -55,6 +67,4 @@ drop function fun_info;
 **赋值用 :=**
 
 `various := 1;`
-
-
 

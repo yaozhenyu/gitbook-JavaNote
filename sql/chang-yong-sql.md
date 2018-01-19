@@ -14,11 +14,11 @@ CONNECT BY ROWNUM <=
 
 ```
 SELECT
-	TO_CHAR( TO_DATE( '2013-12-31', 'yyyy-mm-dd' )+ LEVEL - 1, 'yyyy-mm-dd' ) AS dat
+    TO_CHAR( TO_DATE( '2018-01-19', 'yyyy-mm-dd' )+ LEVEL - 1, 'yyyy-mm-dd' ) AS dat
 FROM
-	dual
+    dual
 CONNECT BY
-	LEVEL <= TO_DATE( '2014-01-03', 'yyyy-mm-dd' )- TO_DATE( '2013-12-31', 'yyyy-mm-dd' )+ 1
+    LEVEL <= TO_DATE( '2018-01-01', 'yyyy-mm-dd' )- TO_DATE( '2013-12-31', 'yyyy-mm-dd' )+ 1
 ```
 
 

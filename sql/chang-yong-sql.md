@@ -14,7 +14,7 @@ CONNECT BY ROWNUM <=
 
 ```
 SELECT
-    TO_CHAR( TO_DATE( '2018-01-19', 'yyyy-mm-dd' )+ LEVEL - 1, 'yyyy-mm-dd' ) AS dat
+    TO_CHAR( TO_DATE( '2018-01-19', 'yyyy-mm-dd' )+ LEVEL - 1, 'yyyy-mm-dd' ) AS sdate
 FROM
     dual
 CONNECT BY

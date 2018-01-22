@@ -15,6 +15,17 @@ Oracle数据库
 ```
 sudo docker pull sath89/oracle-12c
 sudo docker run -d -p 8080:8080 -p 1521:1521 -v /my/oracle/data:/u01/app/oracle sath89/oracle-12c
+
+docker ps
+docker exec -it 9e893d773494 /bin/bash
+su oracle
+$ORACLE_HOME/bin/sqlplus / as sysdba
+
+hostname: localhost
+port: 1521
+sid: xe
+username: system
+password: oracle
 ```
 
 

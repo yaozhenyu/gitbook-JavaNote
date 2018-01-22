@@ -10,7 +10,7 @@ docker run --name first-mysql -p 3306:3306 -e MYSQL\_ROOT\_PASSWORD=123456 -d my
 sudo docker start container_id
 ```
 
-Oracle数据库
+**Oracle数据库**
 
 ```
 sudo docker pull sath89/oracle-12c

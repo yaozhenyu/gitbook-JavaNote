@@ -12,3 +12,12 @@ sudo docker start container_id
 
 
 
+Oracle数据库
+
+```
+sudo docker pull sath89/oracle-12c
+
+```
+
+
+

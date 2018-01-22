@@ -22,6 +22,8 @@ docker exec -it 9e893d773494 /bin/bash
 su oracle
 $ORACLE_HOME/bin/sqlplus / as sysdba
 
+alter user system identified by oracle;
+
 hostname: localhost
 port: 1521
 sid: xe

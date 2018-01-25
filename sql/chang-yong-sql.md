@@ -21,7 +21,7 @@ CONNECT BY
     LEVEL <= TO_DATE( '2018-01-19', 'yyyy-mm-dd' ) - TO_DATE( '2018-01-01', 'yyyy-mm-dd' )+ 1
 ```
 
-3、oracle行转列
+3、oracle行转列 \(pivot\)
 
 ```
 SELECT

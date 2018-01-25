@@ -69,5 +69,5 @@ FROM
     )
 ```
 
-pivot
+select \* from \(select a,b,c from tablename\) pivot \(max\(a\) for b in \('B1','B2','B3'\)\)
 

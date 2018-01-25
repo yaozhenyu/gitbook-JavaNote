@@ -24,49 +24,60 @@ CONNECT BY
 3、oracle行转列 \(pivot\)
 
 ```
-SELECT
-    *
+WITH tmp AS(
+	SELECT
+		'2018-01-01' AS date_,
+		10 AS cost_am,
+		20 AS cost_pm
+	FROM
+		dual
+UNION ALL SELECT
+		'2018-01-01' AS date_,
+		13 AS cost_am,
+		21 AS cost_pm
+	FROM
+		dual
+UNION ALL SELECT
+		'2018-01-02' AS date_,
+		12 AS cost_am,
+		25 AS cost_pm
+	FROM
+		dual
+UNION ALL SELECT
+		'2018-01-02' AS date_,
+		11 AS cost_am,
+		22 AS cost_pm
+	FROM
+		dual
+UNION ALL SELECT
+		'2018-01-03' AS date_,
+		13 AS cost_am,
+		24 AS cost_pm
+	FROM
+		dual
+UNION ALL SELECT
+		'2018-01-04' AS date_,
+		15 AS cost_am,
+		21 AS cost_pm
+	FROM
+		dual
+UNION ALL SELECT
+		'2018-01-04' AS date_,
+		16 AS cost_am,
+		29 AS cost_pm
+	FROM
+		dual
+) SELECT
+	*
 FROM
-    (
-        SELECT
-            SUBSTR( al.putoutdate, 1, 7 ) sdate,
-            TO_CHAR( TO_DATE( aps.FINISHDATE, 'yyyy-MM-dd' ), 'yyyy-MM' ) fi,
-            SUM( aps.PAYPRINCIPALAMT )/ 10000 su
-        FROM
-            account_loan al,
-            ACCOUNT_PAYMENT_SCHEDULE aps
-        WHERE
-            al.id = aps.accountno
-            AND al.LOANSTATUS = '3'
-            AND aps.PAYTYPE = '5'
-        GROUP BY
-            SUBSTR( al.putoutdate, 1, 7 ),
-            TO_CHAR( TO_DATE( aps.FINISHDATE, 'yyyy-MM-dd' ), 'yyyy-MM' )
-        ORDER BY
-            sdate,
-            fi
-    ) pivot(
-        MAX( su ) FOR fi IN(
-            '2016-08' AS "2016-08",
-            '2016-09' AS "2016-09",
-            '2016-10' AS "2016-10",
-            '2016-11' AS "2016-11",
-            '2016-12' AS "2016-12",
-            '2017-01' AS "2017-01",
-            '2017-02' AS "2017-02",
-            '2017-03' AS "2017-03",
-            '2017-04' AS "2017-04",
-            '2017-05' AS "2017-05",
-            '2017-06' AS "2017-06",
-            '2017-07' AS "2017-07",
-            '2017-08' AS "2017-08",
-            '2017-09' AS "2017-09",
-            '2017-10' AS "2017-10",
-            '2017-11' AS "2017-11",
-            '2017-12' AS "2017-12",
-            '2018-01' AS "2018-01"
-        )
-    )
+	tmp pivot(
+		SUM( cost_pm ) FOR date_ IN(
+			'2018-01-01' AS "2018-01-01",
+			'2018-01-02' AS "2018-01-02",
+			'2018-01-03' AS "2018-01-03",
+			'2018-01-04' AS "2018-01-04"
+		)
+	);
 ```
 
 select \* from \(select a,b,c from tablename\) pivot \(max\(a\) for b in \('B1','B2','B3'\)\)

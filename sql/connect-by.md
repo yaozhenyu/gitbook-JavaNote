@@ -42,7 +42,5 @@ id    partentId
 10    9
 ```
 
-prior表示上一个的意思
-
-
+prior表示上一个的意思，PRIOR "id"= "partentId"表示上一个id等于这一个的partentId
 

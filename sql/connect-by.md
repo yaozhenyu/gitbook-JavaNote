@@ -28,6 +28,8 @@ SELECT '10' AS "id",'9' AS "partentId" FROM dual
 SELECT "id","partentId" FROM SYS_MENU
 START WITH "id"='1'
 CONNECT BY PRIOR "id"= "partentId";
+
+
 ```
 
 

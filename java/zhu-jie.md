@@ -7,6 +7,7 @@
 2、自定义注解
 
 ```
+@Target(value=ANNOTATION_TYPE)
 @Retention(RetentionPolicy.RUNTIME) // 运行时读取注解信息（不加无法读取）
 public @interface MyAnnotation {
 

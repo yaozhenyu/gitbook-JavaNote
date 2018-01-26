@@ -16,7 +16,20 @@ Retention 的英文意为保留期的意思。当 @Retention 应用到一个注�
 
 * ElementType.ANNOTATION\_TYPE 可以给一个注解进行注解
 
-* 
+* ElementType.CONSTRUCTOR 可以给构造方法进行注解
+
+  ElementType.FIELD 可以给属性进行注解
+
+  ElementType.LOCAL\_VARIABLE 可以给局部变量进行注解
+
+  ElementType.METHOD 可以给方法进行注解
+
+  ElementType.PACKAGE 可以给一个包进行注解
+
+  ElementType.PARAMETER 可以给一个方法内的参数进行注解
+
+  ElementType.TYPE 可以给一个类型进行注解，比如类、接口、枚举
+
 2、自定义注解（@interface）
 
 ```

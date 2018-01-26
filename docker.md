@@ -25,7 +25,7 @@ sudo docker run -d -p 8080:8080 -p 1521:1521 -v ~/oracle/data:/u01/app/oracle sa
 
 docker ps
 docker exec -it 9e893d773494 /bin/bash
-netstat -nlpt
+netstat -nlpt      // 启动数据库服务（重要）
 su oracle
 $ORACLE_HOME/bin/sqlplus / as sysdba   // 登际sqlplus
 

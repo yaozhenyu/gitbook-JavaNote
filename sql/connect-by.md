@@ -1,4 +1,4 @@
-# Connect by
+## **Oracle中start with…connect by prior子句用法**
 
 ```
 select ... start with initial-condition connect by nocycle recurse-condition

@@ -27,7 +27,7 @@ docker ps
 docker exec -it 9e893d773494 /bin/bash
 netstat -nlpt
 su oracle
-$ORACLE_HOME/bin/sqlplus / as sysdba
+$ORACLE_HOME/bin/sqlplus / as sysdba   // 登际sqlplus
 
 alter user system identified by oracle; // 修改密码
 

@@ -14,6 +14,10 @@ Retention 的英文意为保留期的意思。当 @Retention 应用到一个注�
 
 * RetentionPolicy.RUNTIME 注解可以保留到程序运行的时候，它会被加载进入到 JVM 中，所以在程序运行时可以获取到它们。
 
+**@Target**
+
+Target 是目标的意思，@Target 指定了注解运用的地方。
+
 2、自定义注解（@interface）
 
 ```

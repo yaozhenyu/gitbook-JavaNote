@@ -14,7 +14,7 @@ Retention 的英文意为保留期的意思。当 @Retention 应用到一个注�
 
 **@Targe**注解
 
- @Target 指定了注解运用的地方。
+@Target 指定了注解运用的地方。
 
 * ElementType.ANNOTATION\_TYPE 可以给一个注解进行注解
 
@@ -31,6 +31,10 @@ Retention 的英文意为保留期的意思。当 @Retention 应用到一个注�
 * ElementType.PARAMETER 可以给一个方法内的参数进行注解
 
 * ElementType.TYPE 可以给一个类型进行注解，比如类、接口、枚举
+
+### @Inherited {#inherited}
+
+Inherited 是继承的意思，但是它并不是说注解本身可以继承，而是说如果一个超类被 @Inherited 注解过的注解进行注解的话，那么如果它的子类没有被任何注解应用的话，那么这个子类就继承了超类的注解。
 
 2、自定义注解（@interface）
 

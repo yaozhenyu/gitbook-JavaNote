@@ -31,6 +31,7 @@ $ORACLE_HOME/bin/sqlplus / as sysdba   // 登际sqlplus
 
 alter user system identified by oracle; // 修改密码
 
+// 安装好的数据库初始状态
 hostname: localhost
 port: 1521
 sid: xe

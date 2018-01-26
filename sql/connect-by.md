@@ -2,18 +2,9 @@
 
 ```
 select ... from tablename 
-
- 
-
-start with cond1 
-
- 
-
-connect by cond2 
-
- 
-
-where cond3; 
+    start with cond1 
+    connect by cond2 
+    where cond3;
 ```
 
 oracle 实例

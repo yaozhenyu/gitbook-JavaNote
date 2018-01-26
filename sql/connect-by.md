@@ -29,7 +29,17 @@ SELECT "id","partentId" FROM SYS_MENU
 START WITH "id"='1'
 CONNECT BY PRIOR "id"= "partentId";
 
-
+id	partentId
+1	[NULL]
+2	1
+3	2
+4	3
+5	2
+6	5
+7	6
+8	7
+9	8
+10	9
 ```
 
 

@@ -1,13 +1,19 @@
 ## **Oracle中start with…connect by prior子句用法**
 
 ```
-select ... start with initial-condition connect by nocycle recurse-condition
+select ... from tablename 
 
-select ... connect by recurse-condition
+ 
 
-select ... start with initial-condition connect by nocycle recurse-condition
+start with cond1 
 
-select ... connect by recurse-condition
+ 
+
+connect by cond2 
+
+ 
+
+where cond3; 
 ```
 
 oracle 实例

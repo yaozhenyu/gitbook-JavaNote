@@ -16,13 +16,7 @@ Retention 的英文意为保留期的意思。当 @Retention 应用到一个注�
 
 * ElementType.ANNOTATION\_TYPE 可以给一个注解进行注解
 
-* ElementType.FIELD 可以给属性进行注解
-* ElementType.LOCAL\_VARIABLE 可以给局部变量进行注解
-* ElementType.METHOD 可以给方法进行注解
-* ElementType.PACKAGE 可以给一个
-
-Target 是目标的意思，@Target 指定了注解运用的地方。
-
+* 
 2、自定义注解（@interface）
 
 ```

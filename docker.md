@@ -16,7 +16,7 @@ sudo docker start container_id
 sudo docker restart container_id
 ```
 
-**Oracle数据库**
+**安装Oracle数据库**
 
 ```
 sudo docker search oracle

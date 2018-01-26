@@ -7,7 +7,7 @@
 2、自定义注解
 
 ```
-@Target({ElementType.FIELD, ElementType.METHOD, ElementType.FIELD}) // 指定注解可以使用的位置
+@Target({ElementType.FIELD, ElementType.METHOD}) // 指定注解可以使用的位置
 @Retention(RetentionPolicy.RUNTIME) // 运行时读取注解信息（不加无法读取）
 public @interface MyAnnotation {
 

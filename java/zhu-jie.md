@@ -14,6 +14,8 @@ Retention 的英文意为保留期的意思。当 @Retention 应用到一个注�
 
 **@Targe**注解
 
+ @Target 指定了注解运用的地方。
+
 * ElementType.ANNOTATION\_TYPE 可以给一个注解进行注解
 
 * ElementType.CONSTRUCTOR 可以给构造方法进行注解

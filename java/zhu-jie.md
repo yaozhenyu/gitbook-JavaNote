@@ -4,7 +4,7 @@
 
 元注解是指注解的注解。包括  @Retention @Target @Document @Inherited四种。
 
-2、自定义注解
+2、自定义注解（@interface）
 
 ```
 @Target({ElementType.FIELD, ElementType.METHOD}) // 指定注解可以使用的位置

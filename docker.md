@@ -29,7 +29,7 @@ netstat -nlpt
 su oracle
 $ORACLE_HOME/bin/sqlplus / as sysdba
 
-alter user system identified by oracle;
+alter user system identified by oracle; // 修改密码
 
 hostname: localhost
 port: 1521

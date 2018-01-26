@@ -7,13 +7,11 @@
 2、自定义注解
 
 ```
-@Retention(RetentionPolicy.RUNTIME) // 运行时读取注解信息
+@Retention(RetentionPolicy.RUNTIME) // 运行时读取注解信息（不加无法读取）
 public @interface MyAnnotation {
 
     String[] value1() default "abc";
 }
-
-
 ```
 
 

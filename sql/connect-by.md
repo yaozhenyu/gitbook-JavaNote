@@ -9,8 +9,6 @@ select ... from tablename
 
 COND1是根结点的限定语句，当然可以放宽限定条件，以取得多个根结点，实际就是多棵树。COND2是连接条件，其中用PRIOR表示上一条记录，比如CONNECT BY PRIOR ID=PRAENTID就是说上一条记录的ID是本条记录的PRAENTID，即本记录的父亲是上一条记。COND3是过滤条件，用于对返回的所有记录进行过滤。
 
-
-
 oracle 实例
 
 ```

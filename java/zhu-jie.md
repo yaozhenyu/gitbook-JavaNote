@@ -1,35 +1,3 @@
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 1、元注解
 
 元注解是指注解的注解。包括  @Retention @Target @Document @Inherited四种。
@@ -45,6 +13,8 @@ Retention 的英文意为保留期的意思。当 @Retention 应用到一个注�
 * RetentionPolicy.RUNTIME 注解可以保留到程序运行的时候，它会被加载进入到 JVM 中，所以在程序运行时可以获取到它们。
 
 **@Targe**注解
+
+* ElementType.ANNOTATION\_TYPE 可以给一个注解进行注解
 
 * ElementType.FIELD 可以给属性进行注解
 * ElementType.LOCAL\_VARIABLE 可以给局部变量进行注解

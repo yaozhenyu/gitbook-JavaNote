@@ -37,7 +37,7 @@ SELECT LOCALTIME
 -> 2016-01-16 17:44:41
 ```
 
-**LAST\_DAY\(date \)：获取date当月最后一天的日期**
+_**LAST\_DAY\(date \)：获取date当月最后一天的日期**_
 
 ```
 SELECT LAST_DAY(SYSDATE())

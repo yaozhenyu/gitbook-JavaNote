@@ -49,4 +49,5 @@
   * [Oracle](shu-ju-ku/oracle.md)
     * [pl/sql](shu-ju-ku/oracle/plsql.md)
     * [connect by](shu-ju-ku/oracle/connect-by.md)
+    * [常用](shu-ju-ku/oracle/chang-yong.md)
 

@@ -37,6 +37,17 @@ SELECT LOCALTIME
 -> 2016-01-16 17:44:41
 ```
 
+**LAST\_DAY\(date \)：获取date当月最后一天的日期**
+
+```
+SELECT LAST_DAY(SYSDATE())
+SELECT LAST_DAY('2015-02-02')
+SELECT LAST_DAY('2015-02-02 00:22:33')
+-> 2016-01-31
+-> 2015-02-28
+-> 2015-02-28
+```
+
 _**PERIOD\_ADD\(month，add\)**_
 
 ```
@@ -320,17 +331,6 @@ SELECT CONVERT_TZ('2004-01-01 12:00:00','+00:00','+10:00')
 ```
 SELECT STR_TO_DATE('2015-01-01', '%Y-%m-%d')
 -> 2015-01-01
-```
-
-**LAST\_DAY\(date \)：获取date当月最后一天的日期**
-
-```
-SELECT LAST_DAY(SYSDATE())
-SELECT LAST_DAY('2015-02-02')
-SELECT LAST_DAY('2015-02-02 00:22:33')
--> 2016-01-31
--> 2015-02-28
--> 2015-02-28
 ```
 
 **MAKEDATE\(year ,dayofyear \)：根据参数（年份，第多少天）获取日期**

@@ -9,11 +9,21 @@ chmod -R 777 dirname
 ** 怎么删除登陆界面的用户名\(Ubuntu\)**
 
 ```
-sudo gnome-open /etc/lightdm/lightdm.conf
-增加以下两行
-greeter-hide-users=true
-greeter-allow-guest=false
-重启lightdm 输入 sudo restart lightdm
+首先跳转到以下目录
+
+cd /var/lib/AccountsService/users/
+
+ls后可以看到你想要隐藏的某个用户文件
+
+然后打开该文件
+
+vim username
+
+进行更改
+
+[User]
+XSession=
+SystemAccount=false  //将false改为true
 ```
 
 

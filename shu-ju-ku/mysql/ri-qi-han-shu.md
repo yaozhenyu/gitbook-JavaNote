@@ -48,15 +48,6 @@ SELECT LAST_DAY('2015-02-02 00:22:33')
 -> 2015-02-28
 ```
 
-_**PERIOD\_ADD\(month，add\)**_
-
-```
-SELECT PERIOD_ADD(1601,2)
-SELECT PERIOD_ADD(191602,3)
-SELECT PERIOD_ADD(191602,-3)
-该函数返回对month做增减的操作结果，month的格式为yyMM或者yyyyMM,返回的都是yyyyMM格式的结果，add可以传负值
-```
-
 _**PERIOD\_DIFF\(monthStart，monthEnd\)**_
 
 ```

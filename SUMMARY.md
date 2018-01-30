@@ -49,4 +49,5 @@
   * [MySql](shu-ju-ku/mysql.md)
     * [日期函数](shu-ju-ku/mysql/ri-qi-han-shu.md)
     * [常用](shu-ju-ku/mysql/chang-yong.md)
+* [Linux](linux.md)
 

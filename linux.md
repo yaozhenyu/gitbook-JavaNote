@@ -39,5 +39,16 @@ $ docker run -d -e MYSQL_ROOT_PASSWORD=admin --name second-mysql -v ~/mysql/data
 sudo docker rm -f mysql
 ```
 
+** 怎么删除登陆界面的用户名**
+
+```
+sudo gnome-open /etc/lightdm/lightdm.conf
+增加以下两行
+greeter-hide-users=true
+greeter-allow-guest=false
+```
+
+
+
 
 

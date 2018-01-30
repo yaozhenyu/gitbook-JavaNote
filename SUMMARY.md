@@ -46,4 +46,6 @@
     * [pl/sql](shu-ju-ku/oracle/plsql.md)
     * [connect by](shu-ju-ku/oracle/connect-by.md)
     * [常用](shu-ju-ku/oracle/chang-yong.md)
+  * [MySql](shu-ju-ku/mysql.md)
+    * [日期函数](shu-ju-ku/mysql/ri-qi-han-shu.md)
 

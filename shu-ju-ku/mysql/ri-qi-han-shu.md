@@ -37,7 +37,7 @@ SELECT LOCALTIME
 -> 2016-01-16 17:44:41
 ```
 
-
+**其他**
 
 **1、DAYOFWEEK\(date\)**
 
@@ -269,8 +269,6 @@ format的格式都列出来：
 TIME_FORMAT(time,format)：
 具体用法和DATE_FORMAT()类似,但TIME_FORMAT只处理小时、分钟和秒(其余符号产生一个NULL值或0)
 ```
-
-
 
 **24、UNIX\_TIMESTAMP（date）：获取时间戳**
 

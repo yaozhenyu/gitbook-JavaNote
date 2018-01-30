@@ -1,3 +1,7 @@
+# 结构化查询语言
+
+**SQL\( Structured Query Language\)**
+
 # 子查询分类
 
 * 标量子查询（Scalar Subquery）：出现在SELECT列表中的子查询。

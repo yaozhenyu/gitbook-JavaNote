@@ -51,7 +51,7 @@ username: system
 password: oracle
 ```
 
-## Mysql
+**安装Mysql数据库**
 
 ```
 sudo docker pull mysql
@@ -73,8 +73,6 @@ run            运行一个容器
 // 本机目录挂载到docker容器 加 -v 参数
 $ docker run -d -e MYSQL_ROOT_PASSWORD=admin --name second-mysql -v ~/mysql/data:/var/lib/mysql -p 3307:3306 mysql
 ```
-
-
 
 
 

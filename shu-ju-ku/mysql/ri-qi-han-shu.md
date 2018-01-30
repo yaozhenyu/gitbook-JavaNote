@@ -153,8 +153,6 @@ SELECT UNIX_TIMESTAMP('2016-01-16 23:59:59')
 -> 1452959999
 ```
 
-
-
 **其他**
 
 **1、DAYOFWEEK\(date\)**
@@ -283,9 +281,7 @@ SELECT FROM_DAYS(367)
 返回西元0年至今多少天的DATE值
 ```
 
-
-
-**25、FROM\_UNIXTIME\(unix\_timestamp,format\)：把时间戳转化成日期时间**
+16**、FROM\_UNIXTIME\(unix\_timestamp,format\)：把时间戳转化成日期时间**
 
 ```
 SELECT FROM_UNIXTIME(1452959999)
@@ -294,41 +290,41 @@ SELECT FROM_UNIXTIME(1452959999,'%Y-%m-%d %H:%i:%s')
 -> 2016-01-16 23:59:59
 ```
 
-**26、SEC\_TO\_TIME\(seconds\)：把秒数转化成时间**
+17**、SEC\_TO\_TIME\(seconds\)：把秒数转化成时间**
 
 ```
 SELECT SEC_TO_TIME(2378)
 -> 00:39:38
 ```
 
-**27、TIME\_TO\_SEC\(time\)：把时间转化成秒数**
+18**、TIME\_TO\_SEC\(time\)：把时间转化成秒数**
 
 ```
 SELECT TIME_TO_SEC('22:23:00')
 -> 2378
 ```
 
-**28、ADDTIME\(time，times\)：把times加到time上**
+19**、ADDTIME\(time，times\)：把times加到time上**
 
 `SELECT ADDTIME("2015-12-31 23:59:59",'01:01:01')`
 
 `-> 2016-01-01 01:01:00`
 
-**29、CONVERT\_TZ\(date,from\_tz ,to\_tz \)：转换时区**
+20**、CONVERT\_TZ\(date,from\_tz ,to\_tz \)：转换时区**
 
 ```
 SELECT CONVERT_TZ('2004-01-01 12:00:00','+00:00','+10:00')
 -> 2004-01-01 22:00:00
 ```
 
-**30、STR\_TO\_DATE\(date，format \)：将字符串转成format格式的日期时间**
+21**、STR\_TO\_DATE\(date，format \)：将字符串转成format格式的日期时间**
 
 ```
 SELECT STR_TO_DATE('2015-01-01', '%Y-%m-%d')
 -> 2015-01-01
 ```
 
-**31、LAST\_DAY\(date \)：获取date当月最后一天的日期**
+22**、LAST\_DAY\(date \)：获取date当月最后一天的日期**
 
 ```
 SELECT LAST_DAY(SYSDATE())
@@ -339,21 +335,21 @@ SELECT LAST_DAY('2015-02-02 00:22:33')
 -> 2015-02-28
 ```
 
-**32、MAKEDATE\(year ,dayofyear \)：根据参数（年份，第多少天）获取日期**
+23**、MAKEDATE\(year ,dayofyear \)：根据参数（年份，第多少天）获取日期**
 
 ```
 SELECT MAKEDATE(2015 ,32)
 -> 2015-02-01
 ```
 
-**33、 MAKETIME\(hour ,minute ,second \)：根据参数（时，分，秒）获取时**间
+24**、 MAKETIME\(hour ,minute ,second \)：根据参数（时，分，秒）获取时**间
 
 ```
 SELECT MAKETIME(12 ,23 ,34 )
 -> 12:23:34
 ```
 
-**34、YEARWEEK\(date\)：获取日期的年和周**
+25**、YEARWEEK\(date\)：获取日期的年和周**
 
 ```
 SELECT YEARWEEK(SYSDATE())

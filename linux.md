@@ -6,11 +6,7 @@
 chmod -R 777 dirname
 ```
 
-## Docker
-
-```
-sudo apt-get install docker-io
-```
+## 
 
 ## Mysql
 
@@ -47,8 +43,6 @@ sudo gnome-open /etc/lightdm/lightdm.conf
 greeter-hide-users=true
 greeter-allow-guest=false
 ```
-
-
 
 
 

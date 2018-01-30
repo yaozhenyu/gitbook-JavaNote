@@ -13,6 +13,7 @@ sudo gnome-open /etc/lightdm/lightdm.conf
 增加以下两行
 greeter-hide-users=true
 greeter-allow-guest=false
+重启lightdm 输入 sudo restart lightdm
 ```
 
 

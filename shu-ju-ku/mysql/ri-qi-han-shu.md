@@ -5,15 +5,15 @@ SELECT DAYOFWEEK('2016-01-16')
 SELECT DAYOFWEEK('2016-01-16 00:00:00')(表示：星期天=1，星期一=2， ... 星期六=7)
 ```
 
+**2、WEEKDAY\(date\)**
 
-
-2、WEEKDAY\(date\)
-
-SELECT WEEKDAY\('2016-01-16'\)
-
-SELECT WEEKDAY\('2016-01-16 00:00:00'\)
-
+```
+SELECT WEEKDAY('2016-01-16')
+SELECT WEEKDAY('2016-01-16 00:00:00')
 0=星期一，1=星期二， ... 5=星期六
+```
+
+
 
 3、DAYOFMONTH\(date\)
 

@@ -21,35 +21,36 @@ SELECT DAYOFMONTH('2016-01-16 00:00:00')
 当月的第几天，1号就返回1，... ,31号就返回31
 ```
 
-4、DAYOFYEAR\(date\)
+**4、DAYOFYEAR\(date\)**
 
-SELECT DAYOFYEAR\('2016-03-31'\)
+```
+SELECT DAYOFYEAR('2016-03-31')
+SELECT DAYOFYEAR('2016-03-31 00:00:00')
+(表示返回date是当年的第几天，01.01返回1，... ,12.31就返回365)
+```
 
-SELECT DAYOFYEAR\('2016-03-31 00:00:00'\)
+**5、MONTH\(date\)**
 
-\(表示返回date是当年的第几天，01.01返回1，... ,12.31就返回365\)
+```
+SELECT MONTH('2016-01-16')
+SELECT MONTH('2016-01-16 00:00:00')(表示返回date是当年的第几月，1月就返回1，... ,12月就返回12)
+```
 
-5、MONTH\(date\)
+**6、DAYNAME\(date\)**
 
-SELECT MONTH\('2016-01-16'\)
+```
+SELECT DAYNAME('2016-01-16')
+SELECT DAYNAME('2016-01-16 00:00:00')
+(表示返回date是周几的英文全称名字)
+```
 
-SELECT MONTH\('2016-01-16 00:00:00'\)\(表示返回date是当年的第几月，1月就返回1，... ,12月就返回12\)
+**7、MONTHNAME\(date**\)
 
-6、DAYNAME\(date\)
-
-SELECT DAYNAME\('2016-01-16'\)
-
-SELECT DAYNAME\('2016-01-16 00:00:00'\)
-
-\(表示返回date是周几的英文全称名字\)
-
-7、MONTHNAME\(date\)
-
-SELECT MONTHNAME\('2016-01-16'\)
-
-SELECT MONTHNAME\('2016-01-16 00:00:00'\)
-
-\(表示返回date的是当年第几月的英文名字\)
+```
+SELECT MONTHNAME('2016-01-16')
+SELECT MONTHNAME('2016-01-16 00:00:00')
+(表示返回date的是当年第几月的英文名字)
+```
 
 8、QUARTER\(date\)
 

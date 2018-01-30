@@ -1,17 +1,13 @@
 # 日期函数
 
-
-
-**其他**
-
-**1、DAYOFWEEK\(date\)**
+**DAYOFWEEK\(date\)**
 
 ```
 SELECT DAYOFWEEK('2016-01-16')
 SELECT DAYOFWEEK('2016-01-16 00:00:00')(表示：星期天=1，星期一=2， ... 星期六=7)
 ```
 
-**2、WEEKDAY\(date\)**
+**WEEKDAY\(date\)**
 
 ```
 SELECT WEEKDAY('2016-01-16')
@@ -19,7 +15,7 @@ SELECT WEEKDAY('2016-01-16 00:00:00')
 0=星期一，1=星期二， ... 5=星期六
 ```
 
-**3、DAYOFMONTH\(date\)**
+**DAYOFMONTH\(date\)**
 
 ```
 SELECT DAYOFMONTH('2016-01-16')
@@ -27,7 +23,7 @@ SELECT DAYOFMONTH('2016-01-16 00:00:00')
 当月的第几天，1号就返回1，... ,31号就返回31
 ```
 
-**4、DAYOFYEAR\(date\)**
+**DAYOFYEAR\(date\)**
 
 ```
 SELECT DAYOFYEAR('2016-03-31')
@@ -35,14 +31,14 @@ SELECT DAYOFYEAR('2016-03-31 00:00:00')
 (表示返回date是当年的第几天，01.01返回1，... ,12.31就返回365)
 ```
 
-**5、MONTH\(date\)**
+**MONTH\(date\)**
 
 ```
 SELECT MONTH('2016-01-16')
 SELECT MONTH('2016-01-16 00:00:00')(表示返回date是当年的第几月，1月就返回1，... ,12月就返回12)
 ```
 
-**6、DAYNAME\(date\)**
+**DAYNAME\(date\)**
 
 ```
 SELECT DAYNAME('2016-01-16')
@@ -50,7 +46,7 @@ SELECT DAYNAME('2016-01-16 00:00:00')
 (表示返回date是周几的英文全称名字)
 ```
 
-**7、MONTHNAME\(date**\)
+**MONTHNAME\(date**\)
 
 ```
 SELECT MONTHNAME('2016-01-16')
@@ -58,14 +54,14 @@ SELECT MONTHNAME('2016-01-16 00:00:00')
 (表示返回date的是当年第几月的英文名字)
 ```
 
-**8、QUARTER\(date\)**
+**QUARTER\(date\)**
 
 ```
 SELECT QUARTER('2016-01-16')
 SELECT QUARTER('2016-01-16 00:00:00')(表示返回date的是当年的第几个季度，返回1,2,3,4)
 ```
 
-**9、WEEK\(date，index\)**
+**WEEK\(date，index\)**
 
 ```
 SELECT WEEK('2016-01-03')
@@ -77,7 +73,7 @@ SELECT WEEK('2016-01-03', 1)
 (week()默认index就是0. 所以结果同上)(当index为1时，表示一周的第一天是周一，所以，4号周一才是第二周的开始日)
 ```
 
-**10、YEAR\(date\)**
+**YEAR\(date\)**
 
 ```
 SELECT YEAR('70-01-16')
@@ -86,7 +82,7 @@ SELECT YEAR('69-01-16 00:00:00')(表示返回date的4位数年份)
 要注意的是：如果年份只有两位数，那么自动补全的机制是以默认时间1970.01.01为界限的，>= 70 的补全 19，< 70 的补全 20
 ```
 
-**11、HOUR\(time\)**
+**HOUR\(time\)**
 
 ```
 SELECT HOUR('11:22:33')
@@ -94,7 +90,7 @@ SELECT HOUR('2016-01-16 11:22:33')
 返回该date或者time的hour值，值范围（0-23）
 ```
 
-**12、MINUTE\(time\)**
+**MINUTE\(time\)**
 
 ```
 SELECT MINUTE('11:22:33')
@@ -102,7 +98,7 @@ SELECT MINUTE('2016-01-16 11:44:33')
 返回该time的minute值，值范围（0-59）
 ```
 
-**13、SECOND\(time\)**
+**SECOND\(time\)**
 
 ```
 SELECT SECOND('11:22:33')
@@ -110,7 +106,7 @@ SELECT SECOND('2016-01-16 11:44:22')
 返回该time的minute值，值范围（0-59）
 ```
 
-**14、TO\_DAYS\(date\)**
+**TO\_DAYS\(date\)**
 
 ```
 SELECT TO_DAYS('2016-01-16')
@@ -122,7 +118,7 @@ SELECT TO_DAYS('160116')
 返回西元0年至日期date是总共多少天
 ```
 
-**15、FROM\_DAYS\(dat**e\)
+**FROM\_DAYS\(dat**e\)
 
 ```
 SELECT FROM_DAYS(367)
@@ -130,7 +126,7 @@ SELECT FROM_DAYS(367)
 返回西元0年至今多少天的DATE值
 ```
 
-16**、FROM\_UNIXTIME\(unix\_timestamp,format\)：把时间戳转化成日期时间**
+**FROM\_UNIXTIME\(unix\_timestamp,format\)：把时间戳转化成日期时间**
 
 ```
 SELECT FROM_UNIXTIME(1452959999)
@@ -139,41 +135,41 @@ SELECT FROM_UNIXTIME(1452959999,'%Y-%m-%d %H:%i:%s')
 -> 2016-01-16 23:59:59
 ```
 
-17**、SEC\_TO\_TIME\(seconds\)：把秒数转化成时间**
+**SEC\_TO\_TIME\(seconds\)：把秒数转化成时间**
 
 ```
 SELECT SEC_TO_TIME(2378)
 -> 00:39:38
 ```
 
-18**、TIME\_TO\_SEC\(time\)：把时间转化成秒数**
+**TIME\_TO\_SEC\(time\)：把时间转化成秒数**
 
 ```
 SELECT TIME_TO_SEC('22:23:00')
 -> 2378
 ```
 
-19**、ADDTIME\(time，times\)：把times加到time上**
+**ADDTIME\(time，times\)：把times加到time上**
 
 `SELECT ADDTIME("2015-12-31 23:59:59",'01:01:01')`
 
 `-> 2016-01-01 01:01:00`
 
-20**、CONVERT\_TZ\(date,from\_tz ,to\_tz \)：转换时区**
+**CONVERT\_TZ\(date,from\_tz ,to\_tz \)：转换时区**
 
 ```
 SELECT CONVERT_TZ('2004-01-01 12:00:00','+00:00','+10:00')
 -> 2004-01-01 22:00:00
 ```
 
-21**、STR\_TO\_DATE\(date，format \)：将字符串转成format格式的日期时间**
+**STR\_TO\_DATE\(date，format \)：将字符串转成format格式的日期时间**
 
 ```
 SELECT STR_TO_DATE('2015-01-01', '%Y-%m-%d')
 -> 2015-01-01
 ```
 
-22**、LAST\_DAY\(date \)：获取date当月最后一天的日期**
+**LAST\_DAY\(date \)：获取date当月最后一天的日期**
 
 ```
 SELECT LAST_DAY(SYSDATE())
@@ -184,21 +180,21 @@ SELECT LAST_DAY('2015-02-02 00:22:33')
 -> 2015-02-28
 ```
 
-23**、MAKEDATE\(year ,dayofyear \)：根据参数（年份，第多少天）获取日期**
+**MAKEDATE\(year ,dayofyear \)：根据参数（年份，第多少天）获取日期**
 
 ```
 SELECT MAKEDATE(2015 ,32)
 -> 2015-02-01
 ```
 
-24**、 MAKETIME\(hour ,minute ,second \)：根据参数（时，分，秒）获取时**间
+**MAKETIME\(hour ,minute ,second \)：根据参数（时，分，秒）获取时**间
 
 ```
 SELECT MAKETIME(12 ,23 ,34 )
 -> 12:23:34
 ```
 
-25**、YEARWEEK\(date\)：获取日期的年和周**
+**YEARWEEK\(date\)：获取日期的年和周**
 
 ```
 SELECT YEARWEEK(SYSDATE())

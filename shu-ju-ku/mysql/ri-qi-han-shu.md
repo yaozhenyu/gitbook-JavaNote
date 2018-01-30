@@ -92,11 +92,11 @@ SELECT '2016-12-31 23:59:59' + INTERVAL "1:1" MINUTE_SECOND
 -> 2017-01-01 00:01:00
 ```
 
-**DATE\_SUB\(date，INTERVAL number type\)，同 SUBDATE\(\)**
+_**DATE\_SUB\(date，INTERVAL number type\)，同 SUBDATE\(\)**_
 
 用法和DATE\_ADD\(\)与ADDDATE\(\)类似，一个是加，一个是减
 
-**20、DATE\_FORMAT\(date，format\)：根据参数对date进行格式化。**
+_**DATE\_FORMAT\(date，format\)：根据参数对date进行格式化。**_
 
 ```
 SELECT DATE_FORMAT('2016-01-16 22:23:00','%W %M %Y')
@@ -139,7 +139,7 @@ TIME_FORMAT(time,format)：
 具体用法和DATE_FORMAT()类似,但TIME_FORMAT只处理小时、分钟和秒(其余符号产生一个NULL值或0)
 ```
 
-**24、UNIX\_TIMESTAMP（date）：获取时间戳**
+_**UNIX\_TIMESTAMP（date）：获取时间戳**_
 
 ```
 SELECT UNIX_TIMESTAMP()

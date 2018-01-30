@@ -6,7 +6,7 @@
 chmod -R 777 dirname
 ```
 
-** 怎么删除登陆界面的用户名**
+** 怎么删除登陆界面的用户名\(Ubuntu\)**
 
 ```
 sudo gnome-open /etc/lightdm/lightdm.conf

@@ -97,6 +97,62 @@ SELECT '2016-12-31 23:59:59' + INTERVAL "1:1" MINUTE_SECOND
 
 **DATE\_SUB\(date，INTERVAL number type\)，同 SUBDATE\(\)**
 
+用法和DATE\_ADD\(\)与ADDDATE\(\)类似，一个是加，一个是减
+
+**20、DATE\_FORMAT\(date，format\)：根据参数对date进行格式化。**
+
+```
+SELECT DATE_FORMAT('2016-01-16 22:23:00','%W %M %Y')
+SELECT DATE_FORMAT('2016-01-16 22:23:00','%D %y %a %d %m %b %j')
+SELECT DATE_FORMAT('2016-01-16 22:23:00','%H %k %I %r %T %S %w')
+SELECT DATE_FORMAT('2016-01-16 22:23:00','%Y-%m-%d %H:%i:%s')
+-> Saturday January 2016
+-> 16th 16 Sat 16 01 Jan 016
+-> 22 22 10 10:23:00 PM 22:23:00 00 6
+-> 2016-01-16 22:23:00
+format的格式都列出来：
+%M 月名字(January……December)
+%W 星期名字(Sunday……Saturday)
+%D 有英语前缀的月份的日期(1st, 2nd, 3rd, 等等。）
+%Y 年, 数字, 4 位
+%y 年, 数字, 2 位
+%a 缩写的星期名字(Sun……Sat)
+%d 月份中的天数, 数字(00……31)
+%e 月份中的天数, 数字(0……31)
+%m 月, 数字(01……12)
+%c 月, 数字(1……12)
+%b 缩写的月份名字(Jan……Dec)
+%j 一年中的天数(001……366)
+%H 小时(00……23)
+%k 小时(0……23)
+%h 小时(01……12)
+%I 小时(01……12)
+%l 小时(1……12)
+%i 分钟, 数字(00……59)
+%r 时间,12 小时(hh:mm:ss [AP]M)
+%T 时间,24 小时(hh:mm:ss)
+%S 秒(00……59)
+%s 秒(00……59)
+%p AM或PM
+%w 一个星期中的天数(0=Sunday ……6=Saturday ）
+%U 星期(0……52), 这里星期天是星期的第一天
+%u 星期(0……52), 这里星期一是星期的第一天
+%% 字符% )
+TIME_FORMAT(time,format)：
+具体用法和DATE_FORMAT()类似,但TIME_FORMAT只处理小时、分钟和秒(其余符号产生一个NULL值或0)
+```
+
+**24、UNIX\_TIMESTAMP（date）：获取时间戳**
+
+```
+SELECT UNIX_TIMESTAMP()
+SELECT UNIX_TIMESTAMP('2016-01-16')
+SELECT UNIX_TIMESTAMP('2016-01-16 23:59:59')
+-> 1452937627
+-> 1452873600
+-> 1452959999
+```
+
 
 
 **其他**
@@ -207,11 +263,7 @@ SELECT SECOND('2016-01-16 11:44:22')
 返回该time的minute值，值范围（0-59）
 ```
 
-
-
-用法和DATE\_ADD\(\)与ADDDATE\(\)类似，一个是加，一个是减
-
-**18、TO\_DAYS\(date\)**
+**14、TO\_DAYS\(date\)**
 
 ```
 SELECT TO_DAYS('2016-01-16')
@@ -223,7 +275,7 @@ SELECT TO_DAYS('160116')
 返回西元0年至日期date是总共多少天
 ```
 
-**19、FROM\_DAYS\(dat**e\)
+**15、FROM\_DAYS\(dat**e\)
 
 ```
 SELECT FROM_DAYS(367)
@@ -231,59 +283,7 @@ SELECT FROM_DAYS(367)
 返回西元0年至今多少天的DATE值
 ```
 
-**20、DATE\_FORMAT\(date，format\)：根据参数对date进行格式化。**
 
-```
-SELECT DATE_FORMAT('2016-01-16 22:23:00','%W %M %Y')
-SELECT DATE_FORMAT('2016-01-16 22:23:00','%D %y %a %d %m %b %j')
-SELECT DATE_FORMAT('2016-01-16 22:23:00','%H %k %I %r %T %S %w')
-SELECT DATE_FORMAT('2016-01-16 22:23:00','%Y-%m-%d %H:%i:%s')
--> Saturday January 2016
--> 16th 16 Sat 16 01 Jan 016
--> 22 22 10 10:23:00 PM 22:23:00 00 6
--> 2016-01-16 22:23:00
-format的格式都列出来：
-%M 月名字(January……December)
-%W 星期名字(Sunday……Saturday)
-%D 有英语前缀的月份的日期(1st, 2nd, 3rd, 等等。）
-%Y 年, 数字, 4 位
-%y 年, 数字, 2 位
-%a 缩写的星期名字(Sun……Sat)
-%d 月份中的天数, 数字(00……31)
-%e 月份中的天数, 数字(0……31)
-%m 月, 数字(01……12)
-%c 月, 数字(1……12)
-%b 缩写的月份名字(Jan……Dec)
-%j 一年中的天数(001……366)
-%H 小时(00……23)
-%k 小时(0……23)
-%h 小时(01……12)
-%I 小时(01……12)
-%l 小时(1……12)
-%i 分钟, 数字(00……59)
-%r 时间,12 小时(hh:mm:ss [AP]M)
-%T 时间,24 小时(hh:mm:ss)
-%S 秒(00……59)
-%s 秒(00……59)
-%p AM或PM
-%w 一个星期中的天数(0=Sunday ……6=Saturday ）
-%U 星期(0……52), 这里星期天是星期的第一天
-%u 星期(0……52), 这里星期一是星期的第一天
-%% 字符% )
-TIME_FORMAT(time,format)：
-具体用法和DATE_FORMAT()类似,但TIME_FORMAT只处理小时、分钟和秒(其余符号产生一个NULL值或0)
-```
-
-**24、UNIX\_TIMESTAMP（date）：获取时间戳**
-
-```
-SELECT UNIX_TIMESTAMP()
-SELECT UNIX_TIMESTAMP('2016-01-16')
-SELECT UNIX_TIMESTAMP('2016-01-16 23:59:59')
--> 1452937627
--> 1452873600
--> 1452959999
-```
 
 **25、FROM\_UNIXTIME\(unix\_timestamp,format\)：把时间戳转化成日期时间**
 

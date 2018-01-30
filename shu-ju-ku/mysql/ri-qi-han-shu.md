@@ -2,7 +2,7 @@
 
 **常用**
 
-**获取系统当前日期**
+_**获取系统当前日期**_
 
 ```
 SELECT CURDATE()
@@ -11,7 +11,7 @@ SELECT CURRENT_DATE()
 -> 2016-01-16
 ```
 
-**获取系统当前时间**
+_**获取系统当前时间**_
 
 ```
 SELECT CURTIME()
@@ -20,7 +20,7 @@ SELECT CURRENT_TIME()
 -> 17:44:22
 ```
 
-**NOW\(\)，SYSDATE\(\)，CURRENT\_TIMESTAMP\(\)，LOCALTIME\(\)：获取系统当前日期和时间**
+_**NOW\(\)，SYSDATE\(\)，CURRENT\_TIMESTAMP\(\)，LOCALTIME\(\)：获取系统当前日期和时间**_
 
 ```
 SELECT NOW()
@@ -37,7 +37,7 @@ SELECT LOCALTIME
 -> 2016-01-16 17:44:41
 ```
 
-**PERIOD\_ADD\(month，add\)**
+_**PERIOD\_ADD\(month，add\)**_
 
 ```
 SELECT PERIOD_ADD(1601,2)
@@ -46,7 +46,7 @@ SELECT PERIOD_ADD(191602,-3)
 该函数返回对month做增减的操作结果，month的格式为yyMM或者yyyyMM,返回的都是yyyyMM格式的结果，add可以传负值
 ```
 
-**PERIOD\_DIFF\(monthStart，monthEnd\)**
+_**PERIOD\_DIFF\(monthStart，monthEnd\)**_
 
 ```
 SELECT PERIOD_DIFF(1601,1603)
@@ -56,7 +56,7 @@ SELECT PERIOD_DIFF(1602,9002)
 该函数返回monthStart - monthEnd的间隔月数
 ```
 
-**DATE\_ADD\(date，INTERVAL number type\)，同 ADDDATE\(\)**
+_**DATE\_ADD\(date，INTERVAL number type\)，同 ADDDATE\(\)**_
 
 ```
 SELECT DATE_ADD("2015-12-31 23:59:59",INTERVAL 1 SECOND)
@@ -64,9 +64,6 @@ SELECT DATE_ADD("2015-12-31 23:59:59",INTERVAL 1 DAY)
 SELECT DATE_ADD("2015-12-31 23:59:59",INTERVAL "1:1" MINUTE_SECOND)
 SELECT DATE_ADD("2016-01-01 00:00:00",INTERVAL "-1 10" DAY_HOUR)
 DATE_ADD()和ADDDATE()返回对date操作的结果
-```
-
-```
 1、date的格式可以是"15-12-31"，可以是"15-12-31 23:59:59",也可以是"2015-12-31 23:59:59"，
 如果参数date是date格式，则返回date格式结果，如果参数date是datetime格式，则返回datetime格式结果
 2、type格式：

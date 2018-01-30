@@ -36,7 +36,6 @@
   * [流程设计](activitigong-zuo-liu/liu-cheng-she-ji.md)
 * [SQL](sql.md)
   * [子查询分类](sql/zi-cha-xun-fen-lei.md)
-  * [Connect by](sql/connect-by.md)
   * [常用Function](sql/chang-yong-function.md)
   * [常用SQL](sql/chang-yong-sql.md)
 * [R语言](ryu-yan.md)

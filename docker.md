@@ -22,6 +22,12 @@ sudo docker start container_id
 sudo docker restart container_id
 ```
 
+删除容器
+
+```
+sudo docker rm -f mysql
+```
+
 **安装Oracle数据库**
 
 ```
@@ -68,11 +74,7 @@ run            运行一个容器
 $ docker run -d -e MYSQL_ROOT_PASSWORD=admin --name second-mysql -v ~/mysql/data:/var/lib/mysql -p 3307:3306 mysql
 ```
 
-删除容器
 
-```
-sudo docker rm -f mysql
-```
 
 
 

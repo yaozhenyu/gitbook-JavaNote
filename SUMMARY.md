@@ -34,8 +34,6 @@
   * [用户用户组表](activitigong-zuo-liu/yong-hu-yong-hu-zu-biao.md)
   * [BPMN](activitigong-zuo-liu/bpmn.md)
   * [流程设计](activitigong-zuo-liu/liu-cheng-she-ji.md)
-* [SQL](sql.md)
-  * [子查询分类](sql/zi-cha-xun-fen-lei.md)
 * [R语言](ryu-yan.md)
   * [数据结构](ryu-yan/shu-ju-jie-gou.md)
   * [矢量Vector](ryu-yan/shi-liang-vector.md)

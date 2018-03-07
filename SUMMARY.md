@@ -50,5 +50,6 @@
     * [日期函数](shu-ju-ku/mysql/ri-qi-han-shu.md)
     * [常用](shu-ju-ku/mysql/chang-yong.md)
 * [Linux](linux.md)
+  * [Centos](linux/centos.md)
 * [Jquery](jquery.md)
 

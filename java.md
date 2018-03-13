@@ -2,7 +2,7 @@
 
 关键字：static
 
-```
+```java
 package example;
 
 public class TestStatic {

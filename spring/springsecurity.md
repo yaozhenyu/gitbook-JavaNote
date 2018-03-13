@@ -4,7 +4,7 @@
 
 继承WebSecurityConfigurerAdapter
 
-```
+```java
 @Configuration
 @EnableWebSecurity
 public class WebSecurityConfig extends WebSecurityConfigurerAdapter {

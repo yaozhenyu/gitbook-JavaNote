@@ -4,7 +4,7 @@ import static（静态导入）是JDK1.5中的新特性，导入类中的**静�
 
 下面是Spring.io官网的例子（APPLICATION\_JSON，fromObject）
 
-```
+```java
 import static org.springframework.http.MediaType.APPLICATION_JSON;
 import static org.springframework.web.reactive.function.BodyInserters.fromObject;
 

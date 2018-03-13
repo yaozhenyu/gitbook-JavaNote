@@ -20,7 +20,7 @@ dependencies {
 
 `@Column(unique=true,name="")` 唯一性约束,设置列名
 
-```
+```java
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
 import javax.persistence.GenerationType;

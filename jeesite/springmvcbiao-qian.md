@@ -17,18 +17,25 @@ JSP代码：
 
 Java代码：
 
-```
-public static List<Office> getBranchOfficeGrade(String grade){
-    List<Office> officeList = (List<Office>)CacheUtils.get(CAHCHE_OFFICE_GRADE_LIST+"_"+grade);
-    if (officeList == null){
-        Office office = new Office();
-        office.setGrade(grade);
-        officeList = officeDao.findBranchOfficeGrade(office);
-        CacheUtils.put(CAHCHE_OFFICE_GRADE_LIST+"_"+grade, officeList);
+public static List&lt;Office&gt; getBranchOfficeGrade\(String grade\){
+
+    List&lt;Office&gt; officeList = \(List&lt;Office&gt;\)CacheUtils.get\(CAHCHE\_OFFICE\_GRADE\_LIST+"\_"+grade\);
+
+    if \(officeList == null\){
+
+        Office office = new Office\(\);
+
+        office.setGrade\(grade\);
+
+        officeList = officeDao.findBranchOfficeGrade\(office\);
+
+        CacheUtils.put\(CAHCHE\_OFFICE\_GRADE\_LIST+"\_"+grade, officeList\);
+
     }
+
     return officeList;
+
 }
-```
 
 fns函数见另外笔记
 

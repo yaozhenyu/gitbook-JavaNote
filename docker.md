@@ -28,6 +28,12 @@ sudo docker restart container_id
 sudo docker rm -f mysql
 ```
 
+进入一个正在运行的容器
+
+```
+docker exec -it 容器名 /bin/sh 或者 docker exec -it 容器id /bin/sh
+```
+
 **安装Oracle数据库**
 
 ```

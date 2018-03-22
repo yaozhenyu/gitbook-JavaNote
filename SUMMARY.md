@@ -52,4 +52,5 @@
 * [Linux](linux.md)
   * [Centos](linux/centos.md)
 * [Jquery](jquery.md)
+* [Mybatis](mybatis.md)
 

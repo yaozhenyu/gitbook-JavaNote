@@ -7,15 +7,15 @@
 使用ajax远程获取数据：
 
 ```javascript
-$("#"+id).select2({
-    placeholder: "",
+$("#selector").select2({
+    placeholder: "请选择",
     ajax: { 
         url: "url", 
         dataType: 'json',
         data: function (term, page) {
-            return {d: param};
+            return {d: param}; // 请求参数
         },
-        results: function (data, page) {
+        results: function (data, page) { // 请求成功数据处理 要用results属性
             var dt = [];
             for(var i=0;i<data.length;i++ ){
                 var dd = {id: data[i]["ID"],text: data[i]["TEXT"]}
@@ -24,13 +24,13 @@ $("#"+id).select2({
             return {results: dt};
         }
     } ,
-    initSelection: function(element, callback) {
+    initSelection: function(element, callback) { // 初始化数值 如果想要使用select2('val','')方法修改值。该方法必须实现。
         var id = $(element).val();
         if (id !== "") {
             $.ajax("${ctx}/allocation/assignmentRuleConfig/initdc?type=assignmentD&value=" + id, {
                 dataType: "json"
             }).done(function(data) { 
-                    var dd = {id: data[0]["ID"],text: data[0]["TEXT"]};
+                    var dd = {id: data[0]["ID"],text: data[0]["TEXT"]};// 单选
                 callback(dd); 
             });
         }

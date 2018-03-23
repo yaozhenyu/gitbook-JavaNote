@@ -38,9 +38,5 @@ $("#selector").select2({
 });
 ```
 
-**修改值：**使用select2\('val',''\)方法修改值。必须要先实现方法_initSelection_方法
-
-
-
-
+**修改值：**使用_select2\('val',''\)_方法修改值。必须要先实现方法_initSelection_方法
 

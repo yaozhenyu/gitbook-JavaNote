@@ -7,7 +7,7 @@
 使用ajax远程获取数据：
 
 ```javascript
-$("#selector").select2({
+$("#select_id").select2({
     placeholder: "请选择",
     ajax: { 
         url: "url", 
@@ -38,5 +38,7 @@ $("#selector").select2({
 });
 ```
 
-**修改值：**使用_select2\('val',''\)_方法修改值。必须要先实现方法_initSelection_方法
+**修改值：**使用$_\("\#select\_id"\).select2\('val',''\)_方法修改值。必须要先实现方法_initSelection_方法
+
+**清空**：$_\("\#select\_id"\).empty\(\)_
 

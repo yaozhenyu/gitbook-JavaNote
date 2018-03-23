@@ -24,7 +24,7 @@ $("#selector").select2({
             return {results: dt};
         }
     } ,
-    initSelection: function(element, callback) { // 初始化数值 如果想要使用select2('val','')方法修改值。该方法必须实现。
+    initSelection: function(element, callback) { // 初始化数值，如果想要使用select2('val','')方法修改值。该方法必须实现。
         var id = $(element).val();
         if (id !== "") {
             $.ajax("${ctx}/allocation/assignmentRuleConfig/initdc?type=assignmentD&value=" + id, {

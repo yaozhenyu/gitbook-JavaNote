@@ -27,7 +27,7 @@ $("#select_id").select2({
     initSelection: function(element, callback) { // 初始化数值。
         var id = $(element).val();
         if (id !== "") {
-            $.ajax("${ctx}/allocation/assignmentRuleConfig/initdc?type=assignmentD&value=" + id, {
+            $.ajax("url?id=" + id, {
                 dataType: "json"
             }).done(function(data) { 
                     var dd = {id: data[0]["ID"],text: data[0]["TEXT"]};// 单选

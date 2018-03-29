@@ -1,5 +1,7 @@
 # Centos
 
+## 网络设置
+
 虚拟机新安装的Centos7没有设置网络，要自己设置
 
 VirtualBox 设置：
@@ -18,7 +20,7 @@ CentOs操作系统
 3、重启网络：service network restart
 ```
 
-## SSH  
+## SSH
 
 安装  `yum install openssh-server`
 

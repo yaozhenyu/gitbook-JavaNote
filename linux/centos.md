@@ -18,5 +18,9 @@ CentOs操作系统
 3、重启网络：service network restart
 ```
 
+## SSH  
 
+安装  `yum install openssh-server`
+
+设置SSH服务为开机启动`chkconfig sshd on`
 

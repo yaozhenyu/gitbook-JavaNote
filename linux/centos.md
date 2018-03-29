@@ -22,7 +22,7 @@ CentOs操作系统
 
 ## SSH
 
-安装  `yum install openssh-server`
+**安装**  `yum install openssh-server`
 
-设置SSH服务为开机启动`chkconfig sshd on`
+**设置SSH服务为开机启动**`chkconfig sshd on`
 

@@ -2,7 +2,7 @@
 
 **标签：** &lt;input&gt; ，也可以用SpringMVC的&lt;form:input&gt;。不要用&lt;select&gt;标签。
 
-**数据格式：** \[{id: "inputvalue1_",text: "\_input\_text1"}, {id: "inputvalue2_",text: "\_input\_text2"}\]，使用mybatis生成map数组会把属性名大写，要注意转换成小写
+**数据格式：` [{id: "inputvalue1",text: "_input_text1"}, {id: "inputvalue2",text: "_input_text2"}]`**，使用mybatis生成map数组会把属性名大写，要注意转换成小写
 
 使用ajax远程获取数据：
 

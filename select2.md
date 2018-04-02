@@ -38,7 +38,7 @@ $("#select_id").select2({
 });
 ```
 
-**修改值：**使用`$("#select_id").select2('val','')`方法修改值。必须要先实现方法_initSelection_方法
+**修改值：**使用`$("#select_id").select2('val','')`方法修改值。必须要先实现方法`initSelection`方法
 
 **清空**：`$("#select_id").empty()`
 

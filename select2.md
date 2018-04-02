@@ -1,8 +1,8 @@
 版本 3.4，3.5
 
-**标签：** &lt;input&gt; ，也可以用SpringMVC的&lt;form:input&gt;。不要用&lt;select&gt;标签。
+**标签：** `<input>` ，也可以用SpringMVC的`<form:input>`。不要用`<select>`标签。
 
-**数据格式：` [{id: "inputvalue1",text: "_input_text1"}, {id: "inputvalue2",text: "_input_text2"}]`**，使用mybatis生成map数组会把属性名大写，要注意转换成小写
+**数据格式：**`[{id: "inputvalue1",text: "_input_text1"}, {id: "inputvalue2",text: "_input_text2"}]`，使用mybatis生成map数组会把属性名大写，要注意转换成小写
 
 使用ajax远程获取数据：
 
@@ -38,7 +38,7 @@ $("#select_id").select2({
 });
 ```
 
-**修改值：**使用$_\("\#select\_id"\).select2\('val',''\)_方法修改值。必须要先实现方法_initSelection_方法
+**修改值：**使用`$("#select_id").select2('val','')`方法修改值。必须要先实现方法_initSelection_方法
 
-**清空**：$_\("\#select\_id"\).empty\(\)_
+**清空**：`$("#select_id").empty()`
 

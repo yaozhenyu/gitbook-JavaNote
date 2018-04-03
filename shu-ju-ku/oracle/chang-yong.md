@@ -99,5 +99,7 @@ select \* from \(select a,b,c from tablename\) pivot \(max\(a\) for b in \('B1',
 
 将b列，行转列，列名B1，B2，B3，行的值为max\(a\)，根据\('B1','B2','B3'\)值分组。
 
+4. 分组求合后再求总和
 
+`sum(sum(a)) over`
 

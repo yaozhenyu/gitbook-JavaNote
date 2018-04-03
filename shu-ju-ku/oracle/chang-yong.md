@@ -25,6 +25,8 @@ CONNECT BY ROWNUM <=
            months_between(sysdate, to_date('2016-08', 'yyyy-mm')) + 1
 ```
 
+
+
 2. 显示两个日期之间的所有日期\(递归connect by\)
 
 ```
@@ -36,7 +38,7 @@ CONNECT BY
     LEVEL <= TO_DATE( '2018-01-19', 'yyyy-mm-dd' ) - TO_DATE( '2018-01-01', 'yyyy-mm-dd' )+ 1
 ```
 
-3. oracle行转列 \(pivot\)
+1. oracle行转列 \(pivot\)
 
 ```
 WITH tmp AS(
@@ -99,7 +101,7 @@ select \* from \(select a,b,c from tablename\) pivot \(max\(a\) for b in \('B1',
 
 将b列，行转列，列名B1，B2，B3，行的值为max\(a\)，根据\('B1','B2','B3'\)值分组。
 
-4. 分组求合后再求总和
+1. 分组求合后再求总和
 
 `sum(sum(a)) over`
 

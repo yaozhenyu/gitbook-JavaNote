@@ -15,7 +15,7 @@ END;
 
 # 常用SQL
 
-1、显示两个日期之间的所有月份\(递归connect by\)
+1. 显示两个日期之间的所有月份\(递归connect by\)
 
 ```
 SELECT TO_CHAR(ADD_MONTHS(TO_DATE('2016-08', 'YYYY-MM'), ROWNUM - 1),
@@ -25,7 +25,7 @@ CONNECT BY ROWNUM <=
            months_between(sysdate, to_date('2016-08', 'yyyy-mm')) + 1
 ```
 
-2、显示两个日期之间的所有日期\(递归connect by\)
+2. 显示两个日期之间的所有日期\(递归connect by\)
 
 ```
 SELECT
@@ -36,7 +36,7 @@ CONNECT BY
     LEVEL <= TO_DATE( '2018-01-19', 'yyyy-mm-dd' ) - TO_DATE( '2018-01-01', 'yyyy-mm-dd' )+ 1
 ```
 
-3、oracle行转列 \(pivot\)
+3. oracle行转列 \(pivot\)
 
 ```
 WITH tmp AS(

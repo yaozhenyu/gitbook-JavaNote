@@ -18,11 +18,12 @@ END;
 **显示两个日期之间的所有月份\(递归connect by\)**
 
 ```
-SELECT TO_CHAR(ADD_MONTHS(TO_DATE('2016-08', 'YYYY-MM'), ROWNUM - 1),
-               'YYYY-MM') sdate
-  FROM DUAL
-CONNECT BY ROWNUM <=
-           months_between(sysdate, to_date('2016-08', 'yyyy-mm')) + 1
+SELECT
+	TO_CHAR( ADD_MONTHS( TO_DATE( '2016-08', 'YYYY-MM' ), LEVEL - 1 ), 'YYYY-MM' ) sdate
+FROM
+	DUAL
+CONNECT BY
+	LEVEL <= MONTHS_BETWEEN( SYSDATE, TO_DATE( '2016-08', 'yyyy-mm' ))+ 1
 ```
 
 **显示两个日期之间的所有日期\(递归connect by\)**

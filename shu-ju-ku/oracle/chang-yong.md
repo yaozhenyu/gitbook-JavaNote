@@ -101,5 +101,5 @@ select \* from \(select a,b,c from tablename\) pivot \(max\(a\) for b in \('B1',
 
 **分组求合后再求总和**
 
-`sum(sum(a)) over`
+`sum(sum(a)) over()`
 

@@ -49,54 +49,21 @@ List<String> userList = service.getUsernameList();
 配置文件daos.xml,如下：
 
 ```
-<?xml version="1.0"
- encoding=
-"UTF-8"
-?
->
-<
-beans
-xmlns
-=
-"http://www.springframework.org/schema/beans"
-xmlns:xsi
-=
-"http://www.w3.org/2001/XMLSchema-instance"
-xsi:schemaLocation
-=
-"http://www.springframework.org/schema/beans
-        http://www.springframework.org/schema/beans/spring-beans.xsd"
->
-<
-bean
-id
-=
-"accountDao"
-class
-=
-"org.springframework.samples.jpetstore.dao.jpa.JpaAccountDao"
->
-<
-/
-bean
->
-<
-bean
-id
-=
-"itemDao"
-class
-=
-"org.springframework.samples.jpetstore.dao.jpa.JpaItemDao"
->
-<
-/
-bean
->
-<
-/
-beans
->
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://www.springframework.org/schema/beans
+        http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+    <bean id="accountDao"
+        class="org.springframework.samples.jpetstore.dao.jpa.JpaAccountDao">
+        <!-- additional collaborators and configuration for this bean go here -->
+    </bean>
+    <bean id="itemDao" class="org.springframework.samples.jpetstore.dao.jpa.JpaItemDao">
+        <!-- additional collaborators and configuration for this bean go here -->
+    </bean>
+    <!-- more bean definitions for data access objects go here -->
+</beans>
 ```
 
 通过一个文件来管理其他的bean配置文件,用到`<import/>`元素来实现。

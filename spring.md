@@ -8,5 +8,5 @@
 
 ## 控制反转：Inversion of Control\(IoC\)
 
-
+A类依赖B类，A类对象获取B类对象时，不自己创建B类对象，而是交给Spring的IoC容器来创建，就叫做控制反转。
 

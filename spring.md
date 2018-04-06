@@ -14,9 +14,9 @@ A类依赖B类，A类对象获取B类对象时，不自己创建B类对象，而
 
 配置bean的方式有
 
-* Annotation-based configuration
+* Annotation-based configuration 
 
-* Java-based configuration
+* Java-based configuration ：@Configuration，@Bean，@Importand ，@DependsOnannotations
 
 **基于XML配置**
 
@@ -79,8 +79,6 @@ List<String> userList = service.getUsernameList();
 ```
 
 **基于Java配置：Java-configuration**
-
-
 
 基于注解配置：
 

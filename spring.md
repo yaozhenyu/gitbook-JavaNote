@@ -40,15 +40,10 @@ List<String> userList = service.getUsernameList();
         http://www.springframework.org/schema/beans/spring-beans.xsd">
 
     <!-- services -->
-
     <bean id="petStore" class="org.springframework.samples.jpetstore.services.PetStoreServiceImpl">
         <property name="accountDao" ref="accountDao"/>
         <property name="itemDao" ref="itemDao"/>
-        <!-- additional collaborators and configuration for this bean go here -->
     </bean>
-
-    <!-- more bean definitions for services go here -->
-
 </beans>
 ```
 

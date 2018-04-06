@@ -8,5 +8,5 @@
 
 ## 控制反转：Inversion of Control\(IoC\)
 
-A类依赖B类，A类对象获取B类对象时，不自己创建B类对象，而是交给Spring的IoC容器来创建，就叫做控制反转。 我们把被依赖的对象叫做bean，创建bean的Spring类有ApplicationContext和BeanFactory。
+A类依赖B类，A类对象获取B类对象时，不自己创建B类对象，而是交给Spring的IoC容器来创建，就叫做控制反转。 我们把被依赖的对象叫做bean，创建bean的Spring类有`ApplicationContext`和B`eanFactory`。
 

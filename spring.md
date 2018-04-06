@@ -49,9 +49,7 @@ List<String> userList = service.getUsernameList();
 配置文件daos.xml,如下：
 
 ```
-<?
-xml version=
-"1.0"
+<?xml version="1.0"
  encoding=
 "UTF-8"
 ?
@@ -104,54 +102,14 @@ beans
 通过一个文件来管理其他的bean配置文件,用到`<import/>`元素来实现。
 
 ```
-<
-beans
->
-<
-import
-resource
-=
-"services.xml"
-/
->
-<
-import
-resource
-=
-"resources/messageSource.xml"
-/
->
-<
-import
-resource
-=
-"/resources/themeSource.xml"
-/
->
-<
-bean
-id
-=
-"bean1"
-class
-=
-"..."
-/
->
-<
-bean
-id
-=
-"bean2"
-class
-=
-"..."
-/
->
-<
-/
-beans
->
+<beans>
+    <import resource="services.xml"/>
+    <import resource="resources/messageSource.xml"/>
+    <import resource="/resources/themeSource.xml"/>
+
+    <bean id="bean1" class="..."/>
+    <bean id="bean2" class="..."/>
+</beans>
 ```
 
 

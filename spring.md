@@ -14,6 +14,8 @@ A类依赖B类，A类对象获取B类对象时，不自己创建B类对象，而
 
 配置bean的方式有
 
+* XML-based configuration
+
 * Annotation-based configuration
 
 * Java-based configuration ：@Configuration，@Bean，@Importand ，@DependsOnannotations

@@ -58,12 +58,10 @@ List<String> userList = service.getUsernameList();
 
     <bean id="accountDao"
         class="org.springframework.samples.jpetstore.dao.jpa.JpaAccountDao">
-        <!-- additional collaborators and configuration for this bean go here -->
     </bean>
     <bean id="itemDao" class="org.springframework.samples.jpetstore.dao.jpa.JpaItemDao">
         <!-- additional collaborators and configuration for this bean go here -->
     </bean>
-    <!-- more bean definitions for data access objects go here -->
 </beans>
 ```
 

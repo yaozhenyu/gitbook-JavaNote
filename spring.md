@@ -12,3 +12,11 @@ A类依赖B类，A类对象获取B类对象时，不自己创建B类对象，而
 
 `ApplicationContext`的实现类有`ClassPathXmlApplicationContext和FileSystemXmlApplicationContext等 。`
 
+配置bean的方法有
+
+* Annotation-based configuration
+
+* Java-based configuration
+
+
+

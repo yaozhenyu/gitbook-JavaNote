@@ -78,5 +78,5 @@ List<String> userList = service.getUsernameList();
 </beans>
 ```
 
-
+**基于Java配置：Java-configuration**
 

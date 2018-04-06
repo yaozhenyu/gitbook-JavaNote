@@ -23,93 +23,30 @@ A类依赖B类，A类对象获取B类对象时，不自己创建B类对象，而
 Java代码：
 
 ```java
-ApplicationContext context = 
-new
- ClassPathXmlApplicationContext(
-"services.xml"
-, 
-"daos.xml"
-);
-
+ApplicationContext context = new ClassPathXmlApplicationContext("services.xml", "daos.xml");
 // retrieve configured instance
-
-PetStoreService service = context.getBean(
-"petStore"
-, PetStoreService.class);
-
+PetStoreService service = context.getBean("petStore", PetStoreService.class);
 // use configured instance
-
-List
-<
-String
->
- userList = service.getUsernameList();
+List<String> userList = service.getUsernameList();
 ```
 
+```java
 配置文件services.xml,如下：
 
 ```
-<
-?
-xml version=
-"1.0"
- encoding=
-"UTF-8"
-?
->
-<
-beans
-xmlns
-=
-"http://www.springframework.org/schema/beans"
-xmlns:xsi
-=
-"http://www.w3.org/2001/XMLSchema-instance"
-xsi:schemaLocation
-=
-"http://www.springframework.org/schema/beans
-        http://www.springframework.org/schema/beans/spring-beans.xsd"
->
-<
-!-- services --
->
-<
-bean
-id
-=
-"petStore"
-class
-=
-"org.springframework.samples.jpetstore.services.PetStoreServiceImpl"
->
-<
-property
-name
-=
-"accountDao"
-ref
-=
-"accountDao"
-/
->
-<
-property
-name
-=
-"itemDao"
-ref
-=
-"itemDao"
-/
->
-<
-/
-bean
->
-<
-/
-beans
->
+
+```
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+        http://www.springframework.org/schema/beans/spring-beans.xsd">
+  <!-- services -->
+  <bean id="petStore" class="org.springframework.samples.jpetstore.services.PetStoreServiceImpl">
+    <property name="accountDao" ref="accountDao"/>
+    <property name="itemDao" ref="itemDao"/>
+  </bean>
+</beans>
 ```
 
 配置文件daos.xml,如下：

@@ -22,7 +22,7 @@ A类依赖B类，A类对象获取B类对象时，不自己创建B类对象，而
 
 Java代码：
 
-```
+```java
 ApplicationContext context = 
 new
  ClassPathXmlApplicationContext(
@@ -44,7 +44,6 @@ List
 String
 >
  userList = service.getUsernameList();
-
 ```
 
 配置文件services.xml,如下：

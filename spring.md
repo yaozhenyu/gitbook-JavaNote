@@ -30,10 +30,7 @@ PetStoreService service = context.getBean("petStore", PetStoreService.class);
 List<String> userList = service.getUsernameList();
 ```
 
-```java
 配置文件services.xml,如下：
-
-```
 
 ```
 <?xml version="1.0" encoding="UTF-8"?>
@@ -52,8 +49,7 @@ List<String> userList = service.getUsernameList();
 配置文件daos.xml,如下：
 
 ```
-<
-?
+<?
 xml version=
 "1.0"
  encoding=

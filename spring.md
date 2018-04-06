@@ -84,5 +84,5 @@ List<String> userList = service.getUsernameList();
 
 **基于Java配置：Java-configuration**
 
-基于注解配置：
+基于注解配置： 
 

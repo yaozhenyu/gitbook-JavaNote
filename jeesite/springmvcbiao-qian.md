@@ -19,21 +19,23 @@ Java代码：
 
 public static List&lt;Office&gt; getBranchOfficeGrade\(String grade\){
 
-    List&lt;Office&gt; officeList = \(List&lt;Office&gt;\)CacheUtils.get\(CAHCHE\_OFFICE\_GRADE\_LIST+"\_"+grade\);
+```java
+List<Office> officeList = (List<Office>)CacheUtils.get(CAHCHE_OFFICE_GRADE_LIST+"_"+grade);
 
-    if \(officeList == null\){
+if (officeList == null)
 
-        Office office = new Office\(\);
+    Office office = new Office();
 
-        office.setGrade\(grade\);
+    office.setGrade(grade);
 
-        officeList = officeDao.findBranchOfficeGrade\(office\);
+    officeList = officeDao.findBranchOfficeGrade(office);
 
-        CacheUtils.put\(CAHCHE\_OFFICE\_GRADE\_LIST+"\_"+grade, officeList\);
+    CacheUtils.put(CAHCHE_OFFICE_GRADE_LIST+"_"+grade, officeList);
 
-    }
+}
 
-    return officeList;
+return officeList;
+```
 
 }
 

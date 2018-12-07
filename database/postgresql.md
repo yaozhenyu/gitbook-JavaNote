@@ -10,7 +10,5 @@ create user username with login password 'password';
 create database zhlc_bak;
 ```
 
-### 
-
 
 

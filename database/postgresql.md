@@ -4,9 +4,7 @@
 create user username with login password 'password';
 ```
 
-```
-create user username with login password 'password';
-```
+
 
 ### 创建数据库
 

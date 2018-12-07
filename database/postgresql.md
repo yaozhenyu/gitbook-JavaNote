@@ -22,7 +22,7 @@ eg:
 grant all on database database_name to user_name;
 ```
 
-### 撤 
+### 撤销授权
 
 
 

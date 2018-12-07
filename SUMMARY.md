@@ -17,7 +17,7 @@
   * [接口隔离原则](she-ji-mo-shi-yuan-ze/jie-kou-ge-li-yuan-ze.md)
   * [迪米特法则](she-ji-mo-shi-yuan-ze/di-mi-te-fa-ze.md)
   * [开闭原则](she-ji-mo-shi-yuan-ze/kai-bi-yuan-ze.md)
-* [设计模式23种](she-ji-mo-shi-23-zhong.md)
+* [设计模式23种](/23种设计模式.md)
   * [单例模式](she-ji-mo-shi-23-zhong/dan-li-mo-shi.md)
   * [工厂模式](she-ji-mo-shi-23-zhong/gong-chang-mo-shi.md)
 * [代码重构](dai-ma-zhong-gou.md)

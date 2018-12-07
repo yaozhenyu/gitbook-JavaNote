@@ -12,8 +12,14 @@ create database zhlc_bak;
 
 ### 授权
 
+```
+GRANT privilege [, ...] ON object [, ...] TO { PUBLIC | GROUP group | username }
+```
+
+eg:
+
 ```SQL
-create user username with login password 'password';
+
 ```
 
 

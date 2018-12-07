@@ -1,5 +1,9 @@
 ### 创建用户
 
+```SQL
+create user username with login password 'password';
+```
+
 ```
 create user username with login password 'password';
 ```

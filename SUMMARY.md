@@ -41,7 +41,7 @@
   * [vim配置成IDE](golang/vimpei-zhi-cheng-ide.md)
   * [结构体标签](golang/jie-gou-ti-biao-qian.md)
 * [Docker](docker.md)
-* [数据库](shu-ju-ku.md)
+* [数据库](/database.md)
   * [Oracle](shu-ju-ku/oracle.md)
     * [pl/sql](shu-ju-ku/oracle/plsql.md)
     * [connect by](shu-ju-ku/oracle/connect-by.md)

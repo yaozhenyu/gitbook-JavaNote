@@ -55,9 +55,6 @@
   * [Centos](linux/centos.md)
 * [Jquery](jquery.md)
 * [Mybatis](mybatis.md)
-* [select2](select2.md)
 * [Cron](cron.md)
 * [JWT](jwt.md)
-
-
 

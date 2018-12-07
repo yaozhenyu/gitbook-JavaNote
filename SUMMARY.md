@@ -50,6 +50,7 @@
     * [日期函数](shu-ju-ku/mysql/ri-qi-han-shu.md)
     * [常用](shu-ju-ku/mysql/chang-yong.md)
   * [PostgresQL](shu-ju-ku/postgresql.md)
+    * psql
 * [Linux](linux.md)
   * [Centos](linux/centos.md)
 * [Jquery](jquery.md)

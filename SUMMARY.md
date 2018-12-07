@@ -42,28 +42,18 @@
   * [结构体标签](golang/jie-gou-ti-biao-qian.md)
 * [Docker](docker.md)
 * [数据库](shu-ju-ku.md)
-
   * [Oracle](shu-ju-ku/oracle.md)
     * [pl/sql](shu-ju-ku/oracle/plsql.md)
     * [connect by](shu-ju-ku/oracle/connect-by.md)
     * [常用](shu-ju-ku/oracle/chang-yong.md)
   * [MySql](shu-ju-ku/mysql.md)
-
     * [日期函数](shu-ju-ku/mysql/ri-qi-han-shu.md)
     * [常用](shu-ju-ku/mysql/chang-yong.md)
-
-  * \[PostgresQL\]\(/shu-ju-ku/postgres/index.md\)
-
 * [Linux](linux.md)
-
   * [Centos](linux/centos.md)
-
 * [Jquery](jquery.md)
-
 * [Mybatis](mybatis.md)
 * [select2](select2.md)
 * [Cron](cron.md)
 * [JWT](jwt.md)
-
-
 

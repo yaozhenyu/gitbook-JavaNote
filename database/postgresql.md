@@ -19,7 +19,7 @@ GRANT privilege [, ...] ON object [, ...] TO { PUBLIC | GROUP group | username }
 eg:
 
 ```SQL
-
+grant all on database zhlc_bak to zhlc;
 ```
 
 

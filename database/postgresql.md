@@ -25,7 +25,7 @@ grant all on database database_name to user_name;
 ### 撤销授权
 
 ```
-
+revoke all on database zhlc_bak from zhlc;
 ```
 
 

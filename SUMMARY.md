@@ -49,7 +49,7 @@
   * [MySql](shu-ju-ku/mysql.md)
     * [日期函数](shu-ju-ku/mysql/ri-qi-han-shu.md)
     * [常用](shu-ju-ku/mysql/chang-yong.md)
-  * [PostgresQL](shu-ju-ku/postgresql.md)
+  * [PostgresQL](/database/postgresql.md)
     * [psql](shu-ju-ku/postgresql/psql.md)
 * [Linux](linux.md)
   * [Centos](linux/centos.md)
@@ -58,4 +58,6 @@
 * [select2](select2.md)
 * [Cron](cron.md)
 * [JWT](jwt.md)
+
+
 

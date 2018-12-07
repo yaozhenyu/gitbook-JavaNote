@@ -52,10 +52,12 @@
     * [日期函数](shu-ju-ku/mysql/ri-qi-han-shu.md)
     * [常用](shu-ju-ku/mysql/chang-yong.md)
 
-  * [//shu-ju-ku/postgres/index.md](//shu-ju-ku/postgres/index.md "PostgresQL")
+  * PostgresQL
 
 * [Linux](linux.md)
+
   * [Centos](linux/centos.md)
+
 * [Jquery](jquery.md)
 * [Mybatis](mybatis.md)
 * [select2](select2.md)

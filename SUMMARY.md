@@ -48,6 +48,9 @@
     * [常用](/database/mysql/chang-yong.md)
   * [PostgresQL](/database/postgresql.md)
     * [psql](/database/postgresql/psql.md)
+
+* [/tool/index.md](/tool/index.md "项目管理工具")
+
 * [Linux](linux.md)
   * [Centos](linux/centos.md)
 * [Jquery](jquery.md)

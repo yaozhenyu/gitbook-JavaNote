@@ -49,9 +49,7 @@
   * [PostgresQL](/database/postgresql.md)
     * [psql](/database/postgresql/psql.md)
 * [项目管理工具](/tool/index.md)
-* * Maven
-
-
+* * [Maven](/tool/maven.md)
 
 * [Linux](linux.md)
   * [Centos](linux/centos.md)

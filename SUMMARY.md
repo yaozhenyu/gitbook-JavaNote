@@ -11,9 +11,10 @@
   * [枚举类](java/mei-ju-lei.md)
   * [注解](java/zhu-jie.md)
 * [设计模式](/设计模式/设计模式.md)
-* [设计模式23种](/23种设计模式.md)
-  * [单例模式](she-ji-mo-shi-23-zhong/dan-li-mo-shi.md)
-  * [工厂模式](she-ji-mo-shi-23-zhong/gong-chang-mo-shi.md)
+* * [单例模式](/设计模式/dan-li-mo-shi.md)
+
+* * [工厂模式](/设计模式/gong-chang-mo-shi.md)
+
 * [代码重构](dai-ma-zhong-gou.md)
   * [代码坏味道](dai-ma-zhong-gou/dai-ma-huai-wei-dao.md)
 * [Jeesite](/jeesite/jeesite.md)

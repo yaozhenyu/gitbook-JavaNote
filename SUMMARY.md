@@ -25,7 +25,7 @@
 * [Jeesite](/jeesite/jeesite.md)
   * [SpringMVC标签](/jeesite/springmvcbiao-qian.md)
   * [JSP常用标签](/jeesite/jspchang-yong-biao-qian.md)
-  * [Jquery-validate](/jeesite/jspchang-yong-biao-qian.md)
+  * [Jquery-validate](/jeesite/jquery-validate.md)
 * [Activiti工作流](activitigong-zuo-liu.md)
   * [流程定义表](activitigong-zuo-liu/activiti-liu-cheng-ding-yi-biao.md)
   * [运行实例表](activitigong-zuo-liu/activiti-yun-xing-shi-li-biao.md)

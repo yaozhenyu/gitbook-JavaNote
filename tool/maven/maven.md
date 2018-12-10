@@ -4,6 +4,17 @@
 
 ```xml
 <packaging>war</packaging>
+
+<build>
+    <!-- 应与application.properties(或application.yml)中context-path保持一致 -->
+    <finalName>war包名称</finalName>
+    <plugins>
+        <plugin>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-maven-plugin</artifactId>
+        </plugin>
+    </plugins>
+</build>
 ```
 
 * 排除spring-boot-starter-web中的Tomcat

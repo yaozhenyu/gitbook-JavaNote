@@ -23,5 +23,11 @@
 </dependency>
 ```
 
+* 配置SpringBootServletInitializer
+
+```java
+
+```
+
 
 

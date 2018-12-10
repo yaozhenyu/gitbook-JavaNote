@@ -1,5 +1,11 @@
 ### SpringBoot项目打WAR包发布到tomcat
 
+* 打包形式修改
+
+```xml
+<packaging>war</packaging>
+```
+
 * 排除spring-boot-starter-web中的Tomcat
 
 ```xml

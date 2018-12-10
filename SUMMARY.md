@@ -11,7 +11,6 @@
   * [枚举类](java/mei-ju-lei.md)
   * [注解](java/zhu-jie.md)
 * [设计模式六大原则](she-ji-mo-shi-yuan-ze.md)
-  * [接口隔离原则](she-ji-mo-shi-yuan-ze/jie-kou-ge-li-yuan-ze.md)
   * [迪米特法则](she-ji-mo-shi-yuan-ze/di-mi-te-fa-ze.md)
   * [开闭原则](she-ji-mo-shi-yuan-ze/kai-bi-yuan-ze.md)
 * [设计模式23种](/23种设计模式.md)

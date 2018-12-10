@@ -33,7 +33,6 @@ public class ServletInitializer extends SpringBootServletInitializer {
         //此处的Application.class为带有@SpringBootApplication注解的启动类
         return builder.sources(Application.class);
     }
-
 }
 ```
 

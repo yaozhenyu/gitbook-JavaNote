@@ -14,7 +14,7 @@
 
   * [单例模式](/设计模式/dan-li-mo-shi.md)
 
-   - [工厂模式](/设计模式/gong-chang-mo-shi.md)
+  * [工厂模式](/设计模式/gong-chang-mo-shi.md)
 
 * [代码重构](dai-ma-zhong-gou.md)
 
@@ -37,8 +37,10 @@
   * [流程设计](activitigong-zuo-liu/liu-cheng-she-ji.md)
 
 * [golang](golang.md)
+
   * [vim配置成IDE](golang/vimpei-zhi-cheng-ide.md)
   * [结构体标签](golang/jie-gou-ti-biao-qian.md)
+
 * [Docker](docker.md)
 * [数据库](/database.md)
   * [Oracle](/database/oracle.md)

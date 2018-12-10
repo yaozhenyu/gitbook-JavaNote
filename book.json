@@ -1,5 +1,5 @@
 {
-    "title": "我的电子书",
+    "title": "我的笔记",
     "plugins": ["expandable-chapters"],
     "pluginsConfig": {
         "expandable-chapters":{}

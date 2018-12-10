@@ -12,9 +12,10 @@
   * [注解](java/zhu-jie.md)
 * [设计模式](/设计模式/设计模式.md)
 
-   - [单例模式](/设计模式/dan-li-mo-shi.md)
+  * [单例模式](/设计模式/dan-li-mo-shi.md)
 
-* * [工厂模式](/设计模式/gong-chang-mo-shi.md)
+   - [工厂模式](/设计模式/gong-chang-mo-shi.md)
+
 * [代码重构](dai-ma-zhong-gou.md)
 
   * [代码坏味道](dai-ma-zhong-gou/dai-ma-huai-wei-dao.md)
@@ -26,6 +27,7 @@
   * [Jquery-validate](/jeesite/jquery-validate.md)
 
 * [Activiti工作流](activitigong-zuo-liu.md)
+
   * [流程定义表](activitigong-zuo-liu/activiti-liu-cheng-ding-yi-biao.md)
   * [运行实例表](activitigong-zuo-liu/activiti-yun-xing-shi-li-biao.md)
   * [流程历史记录](activitigong-zuo-liu/liu-cheng-li-shi-ji-lu.md)
@@ -33,6 +35,7 @@
   * [用户用户组表](activitigong-zuo-liu/yong-hu-yong-hu-zu-biao.md)
   * [BPMN](activitigong-zuo-liu/bpmn.md)
   * [流程设计](activitigong-zuo-liu/liu-cheng-she-ji.md)
+
 * [golang](golang.md)
   * [vim配置成IDE](golang/vimpei-zhi-cheng-ide.md)
   * [结构体标签](golang/jie-gou-ti-biao-qian.md)

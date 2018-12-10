@@ -11,16 +11,20 @@
   * [枚举类](java/mei-ju-lei.md)
   * [注解](java/zhu-jie.md)
 * [设计模式](/设计模式/设计模式.md)
-* * [单例模式](/设计模式/dan-li-mo-shi.md)
+
+   - [单例模式](/设计模式/dan-li-mo-shi.md)
 
 * * [工厂模式](/设计模式/gong-chang-mo-shi.md)
-
 * [代码重构](dai-ma-zhong-gou.md)
+
   * [代码坏味道](dai-ma-zhong-gou/dai-ma-huai-wei-dao.md)
+
 * [Jeesite](/jeesite/jeesite.md)
+
   * [SpringMVC标签](/jeesite/springmvcbiao-qian.md)
   * [JSP常用标签](/jeesite/jspchang-yong-biao-qian.md)
   * [Jquery-validate](/jeesite/jquery-validate.md)
+
 * [Activiti工作流](activitigong-zuo-liu.md)
   * [流程定义表](activitigong-zuo-liu/activiti-liu-cheng-ding-yi-biao.md)
   * [运行实例表](activitigong-zuo-liu/activiti-yun-xing-shi-li-biao.md)

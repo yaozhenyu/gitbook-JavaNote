@@ -10,7 +10,7 @@
   * [修饰符](java/xiu-shi-fu.md)
   * [枚举类](java/mei-ju-lei.md)
   * [注解](java/zhu-jie.md)
-* [设计模式六大原则](she-ji-mo-shi-yuan-ze.md)
+* [设计模式](she-ji-mo-shi-yuan-ze.md)
 * [设计模式23种](/23种设计模式.md)
   * [单例模式](she-ji-mo-shi-23-zhong/dan-li-mo-shi.md)
   * [工厂模式](she-ji-mo-shi-23-zhong/gong-chang-mo-shi.md)

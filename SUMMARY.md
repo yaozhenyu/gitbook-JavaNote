@@ -43,9 +43,9 @@
     * [pl/sql](/database/oracle/plsql.md)
     * [connect by](/database/oracle/connect-by.md)
     * [常用](/database/oracle/chang-yong.md)
-  * [MySql](shu-ju-ku/mysql.md)
-    * [日期函数](shu-ju-ku/mysql/ri-qi-han-shu.md)
-    * [常用](shu-ju-ku/mysql/chang-yong.md)
+  * [MySql](/database/mysql.md)
+    * [日期函数](/database/mysql/ri-qi-han-shu.md)
+    * [常用](/database/mysql/chang-yong.md)
   * [PostgresQL](/database/postgresql.md)
     * [psql](shu-ju-ku/postgresql/psql.md)
 * [Linux](linux.md)
@@ -54,4 +54,6 @@
 * [Mybatis](mybatis.md)
 * [Cron](cron.md)
 * [JWT](jwt.md)
+
+
 

@@ -22,7 +22,7 @@
   * [工厂模式](she-ji-mo-shi-23-zhong/gong-chang-mo-shi.md)
 * [代码重构](dai-ma-zhong-gou.md)
   * [代码坏味道](dai-ma-zhong-gou/dai-ma-huai-wei-dao.md)
-* [Jeesite](jeesite.md)
+* [Jeesite](/jeesite/jeesite.md)
   * [SpringMVC标签](jeesite/springmvcbiao-qian.md)
   * [JSP常用标签](jeesite/jspchang-yong-biao-qian.md)
   * [Jquery-validate](jeesite/jquery-validate.md)

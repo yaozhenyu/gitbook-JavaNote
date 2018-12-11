@@ -83,5 +83,11 @@ git merge tmp //合并tmp分支到当前分支
 
 ## git pull
 
+相当于是从远程获取最新版本并merge到本地
+
+```
+git pull origin master
+```
+
 
 

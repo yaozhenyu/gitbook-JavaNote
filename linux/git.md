@@ -67,5 +67,13 @@ $ git remote
 jQuery
 ```
 
+## git fetch
+
+git fetch 相当于是从远程获取最新到本地，不会自动merge
+
+```
+　git fetch orgin master //将远程仓库的master分支下载到本地当前branch中
+```
+
 
 
